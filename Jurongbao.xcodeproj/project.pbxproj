@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		BAA59B361BCA3902008162A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59B351BCA3902008162A4 /* main.m */; };
 		BAA59B391BCA3902008162A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59B381BCA3902008162A4 /* AppDelegate.m */; };
-		BAA59B3C1BCA3902008162A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59B3B1BCA3902008162A4 /* ViewController.m */; };
 		BAA59B3F1BCA3902008162A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAA59B3D1BCA3902008162A4 /* Main.storyboard */; };
 		BAA59B411BCA3902008162A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA59B401BCA3902008162A4 /* Assets.xcassets */; };
 		BAA59B441BCA3902008162A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAA59B421BCA3902008162A4 /* LaunchScreen.storyboard */; };
 		BAA59B4F1BCA3903008162A4 /* JurongbaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59B4E1BCA3903008162A4 /* JurongbaoTests.m */; };
 		BAA59B5A1BCA3903008162A4 /* JurongbaoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59B591BCA3903008162A4 /* JurongbaoUITests.m */; };
+		BAA59B691BCA3A77008162A4 /* JRBMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59B681BCA3A77008162A4 /* JRBMainTabBarController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 		BAA59B351BCA3902008162A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BAA59B371BCA3902008162A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BAA59B381BCA3902008162A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BAA59B3A1BCA3902008162A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BAA59B3B1BCA3902008162A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BAA59B3E1BCA3902008162A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BAA59B401BCA3902008162A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAA59B431BCA3902008162A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		BAA59B551BCA3903008162A4 /* JurongbaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JurongbaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA59B591BCA3903008162A4 /* JurongbaoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JurongbaoUITests.m; sourceTree = "<group>"; };
 		BAA59B5B1BCA3903008162A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAA59B671BCA3A77008162A4 /* JRBMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBMainTabBarController.h; sourceTree = "<group>"; };
+		BAA59B681BCA3A77008162A4 /* JRBMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBMainTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +103,8 @@
 			children = (
 				BAA59B371BCA3902008162A4 /* AppDelegate.h */,
 				BAA59B381BCA3902008162A4 /* AppDelegate.m */,
-				BAA59B3A1BCA3902008162A4 /* ViewController.h */,
-				BAA59B3B1BCA3902008162A4 /* ViewController.m */,
+				BAA59B671BCA3A77008162A4 /* JRBMainTabBarController.h */,
+				BAA59B681BCA3A77008162A4 /* JRBMainTabBarController.m */,
 				BAA59B3D1BCA3902008162A4 /* Main.storyboard */,
 				BAA59B401BCA3902008162A4 /* Assets.xcassets */,
 				BAA59B421BCA3902008162A4 /* LaunchScreen.storyboard */,
@@ -270,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAA59B3C1BCA3902008162A4 /* ViewController.m in Sources */,
+				BAA59B691BCA3A77008162A4 /* JRBMainTabBarController.m in Sources */,
 				BAA59B391BCA3902008162A4 /* AppDelegate.m in Sources */,
 				BAA59B361BCA3902008162A4 /* main.m in Sources */,
 			);
@@ -498,6 +498,7 @@
 				BAA59B601BCA3903008162A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAA59B611BCA3903008162A4 /* Build configuration list for PBXNativeTarget "JurongbaoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +507,7 @@
 				BAA59B631BCA3903008162A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAA59B641BCA3903008162A4 /* Build configuration list for PBXNativeTarget "JurongbaoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +516,7 @@
 				BAA59B661BCA3903008162A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
