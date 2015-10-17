@@ -14,3 +14,22 @@ int main(int argc, char * argv[]) {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
+
+
+//#pragma mark - UI相关
+//- (void)createOCMainTabBarControllerUI{
+//
+//}
+//
+//#pragma mark - 网络请求
+//
+//#pragma mark - 代理方法
+//
+//#pragma mark - 点击事件处理
+//
+//#pragma mark - 其他私有方法
+//
+//#pragma mark - 内存管理相关
+//- (void)ocMainTabBarControllerDataInit{
+//
+//}

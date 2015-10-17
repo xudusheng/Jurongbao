@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dQI-TR-Cd3">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
+        <!--主框架-->
         <scene sceneID="bSB-OM-8Kq">
             <objects>
-                <tabBarController id="dQI-TR-Cd3" sceneMemberID="viewController">
+                <tabBarController title="主框架" id="dQI-TR-Cd3" customClass="JRBMainTabBarController" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="0MU-vm-RNu">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -17,6 +19,52 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G3B-fD-I6B" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="173" y="284"/>
+        </scene>
+        <!--登录-->
+        <scene sceneID="Jaf-r9-9l9">
+            <objects>
+                <tableViewController title="登录" id="yaC-5E-D3x" customClass="JRBLoginAndRegisterTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="hjM-NN-tYw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Uxb-Uu-qMu">
+                                <rect key="frame" x="0.0" y="92" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Uxb-Uu-qMu" id="ROQ-KO-bYg">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="yaC-5E-D3x" id="sk0-U3-lBW"/>
+                            <outlet property="delegate" destination="yaC-5E-D3x" id="gkT-TA-uDh"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="登录" id="cRd-Ip-pZD"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0bg-vT-M9U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="578" y="913"/>
+        </scene>
+        <!--登录-->
+        <scene sceneID="P3l-XB-onf">
+            <objects>
+                <navigationController storyboardIdentifier="JRBLoginAndRegisterNavigationController" id="wkn-3w-i9X" userLabel="登录" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="n3R-w8-cuV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="yaC-5E-D3x" kind="relationship" relationship="rootViewController" id="akZ-Zi-X5f"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tWa-Pv-2RV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="173" y="913"/>
         </scene>
     </scenes>
 </document>

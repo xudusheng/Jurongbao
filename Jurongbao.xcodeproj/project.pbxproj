@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA259E701BD23ABD00640349 /* JRBMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA259E6F1BD23ABD00640349 /* JRBMainTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		BA259E721BD23AFC00640349 /* JRBHotTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA259E711BD23AFC00640349 /* JRBHotTab.storyboard */; settings = {ASSET_TAGS = (); }; };
+		BA259E741BD23B0D00640349 /* JRBProductListTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA259E731BD23B0D00640349 /* JRBProductListTab.storyboard */; settings = {ASSET_TAGS = (); }; };
+		BA259E761BD23B1E00640349 /* JRBPersonalCenterTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA259E751BD23B1E00640349 /* JRBPersonalCenterTab.storyboard */; settings = {ASSET_TAGS = (); }; };
+		BA259E781BD23B3000640349 /* JRBMoreTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA259E771BD23B3000640349 /* JRBMoreTab.storyboard */; settings = {ASSET_TAGS = (); }; };
+		BA259E7E1BD249F800640349 /* JRBLoginAndRegisterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA259E7D1BD249F800640349 /* JRBLoginAndRegisterTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BAA0D1B81BCFEF4C00ECE6A2 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA0D1B71BCFEF4C00ECE6A2 /* LocalAuthentication.framework */; };
 		BAA59B361BCA3902008162A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59B351BCA3902008162A4 /* main.m */; };
 		BAA59B391BCA3902008162A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59B381BCA3902008162A4 /* AppDelegate.m */; };
 		BAA59B3F1BCA3902008162A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAA59B3D1BCA3902008162A4 /* Main.storyboard */; };
@@ -14,7 +21,6 @@
 		BAA59B441BCA3902008162A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAA59B421BCA3902008162A4 /* LaunchScreen.storyboard */; };
 		BAA59B4F1BCA3903008162A4 /* JurongbaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59B4E1BCA3903008162A4 /* JurongbaoTests.m */; };
 		BAA59B5A1BCA3903008162A4 /* JurongbaoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59B591BCA3903008162A4 /* JurongbaoUITests.m */; };
-		BAA59B691BCA3A77008162A4 /* JRBMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59B681BCA3A77008162A4 /* JRBMainTabBarController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA259E6E1BD23ABD00640349 /* JRBMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBMainTabBarController.h; sourceTree = "<group>"; };
+		BA259E6F1BD23ABD00640349 /* JRBMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBMainTabBarController.m; sourceTree = "<group>"; };
+		BA259E711BD23AFC00640349 /* JRBHotTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JRBHotTab.storyboard; sourceTree = "<group>"; };
+		BA259E731BD23B0D00640349 /* JRBProductListTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JRBProductListTab.storyboard; sourceTree = "<group>"; };
+		BA259E751BD23B1E00640349 /* JRBPersonalCenterTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JRBPersonalCenterTab.storyboard; sourceTree = "<group>"; };
+		BA259E771BD23B3000640349 /* JRBMoreTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JRBMoreTab.storyboard; sourceTree = "<group>"; };
+		BA259E7A1BD23EA000640349 /* JRBHeaderFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRBHeaderFile.h; sourceTree = "<group>"; };
+		BA259E7B1BD23F1300640349 /* JRBPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRBPrefixHeader.pch; sourceTree = "<group>"; };
+		BA259E7C1BD249F800640349 /* JRBLoginAndRegisterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBLoginAndRegisterTableViewController.h; sourceTree = "<group>"; };
+		BA259E7D1BD249F800640349 /* JRBLoginAndRegisterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBLoginAndRegisterTableViewController.m; sourceTree = "<group>"; };
+		BAA0D1B71BCFEF4C00ECE6A2 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		BAA59B311BCA3902008162A4 /* Jurongbao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jurongbao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA59B351BCA3902008162A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BAA59B371BCA3902008162A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -49,8 +66,6 @@
 		BAA59B551BCA3903008162A4 /* JurongbaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JurongbaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA59B591BCA3903008162A4 /* JurongbaoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JurongbaoUITests.m; sourceTree = "<group>"; };
 		BAA59B5B1BCA3903008162A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BAA59B671BCA3A77008162A4 /* JRBMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBMainTabBarController.h; sourceTree = "<group>"; };
-		BAA59B681BCA3A77008162A4 /* JRBMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBMainTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAA0D1B81BCFEF4C00ECE6A2 /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +94,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA259E661BD23A5900640349 /* JRBMoreTab */ = {
+			isa = PBXGroup;
+			children = (
+				BA259E771BD23B3000640349 /* JRBMoreTab.storyboard */,
+			);
+			path = JRBMoreTab;
+			sourceTree = "<group>";
+		};
+		BA259E671BD23A6600640349 /* JRBHotTab */ = {
+			isa = PBXGroup;
+			children = (
+				BA259E711BD23AFC00640349 /* JRBHotTab.storyboard */,
+			);
+			path = JRBHotTab;
+			sourceTree = "<group>";
+		};
+		BA259E681BD23A6600640349 /* JRBProductListTab */ = {
+			isa = PBXGroup;
+			children = (
+				BA259E731BD23B0D00640349 /* JRBProductListTab.storyboard */,
+			);
+			path = JRBProductListTab;
+			sourceTree = "<group>";
+		};
+		BA259E691BD23A6E00640349 /* JRBPersonalCenterTab */ = {
+			isa = PBXGroup;
+			children = (
+				BA259E751BD23B1E00640349 /* JRBPersonalCenterTab.storyboard */,
+			);
+			path = JRBPersonalCenterTab;
+			sourceTree = "<group>";
+		};
+		BA259E6A1BD23A9F00640349 /* JRBMain */ = {
+			isa = PBXGroup;
+			children = (
+				BA259E6E1BD23ABD00640349 /* JRBMainTabBarController.h */,
+				BA259E6F1BD23ABD00640349 /* JRBMainTabBarController.m */,
+			);
+			path = JRBMain;
+			sourceTree = "<group>";
+		};
+		BA259E791BD23C6000640349 /* JRBLoginAndLogout */ = {
+			isa = PBXGroup;
+			children = (
+				BA259E7C1BD249F800640349 /* JRBLoginAndRegisterTableViewController.h */,
+				BA259E7D1BD249F800640349 /* JRBLoginAndRegisterTableViewController.m */,
+			);
+			path = JRBLoginAndLogout;
+			sourceTree = "<group>";
+		};
 		BAA59B281BCA3902008162A4 = {
 			isa = PBXGroup;
 			children = (
+				BAA0D1B71BCFEF4C00ECE6A2 /* LocalAuthentication.framework */,
 				BAA59B331BCA3902008162A4 /* Jurongbao */,
 				BAA59B4D1BCA3903008162A4 /* JurongbaoTests */,
 				BAA59B581BCA3903008162A4 /* JurongbaoUITests */,
@@ -103,9 +170,13 @@
 			children = (
 				BAA59B371BCA3902008162A4 /* AppDelegate.h */,
 				BAA59B381BCA3902008162A4 /* AppDelegate.m */,
-				BAA59B671BCA3A77008162A4 /* JRBMainTabBarController.h */,
-				BAA59B681BCA3A77008162A4 /* JRBMainTabBarController.m */,
 				BAA59B3D1BCA3902008162A4 /* Main.storyboard */,
+				BA259E6A1BD23A9F00640349 /* JRBMain */,
+				BA259E791BD23C6000640349 /* JRBLoginAndLogout */,
+				BA259E671BD23A6600640349 /* JRBHotTab */,
+				BA259E681BD23A6600640349 /* JRBProductListTab */,
+				BA259E691BD23A6E00640349 /* JRBPersonalCenterTab */,
+				BA259E661BD23A5900640349 /* JRBMoreTab */,
 				BAA59B401BCA3902008162A4 /* Assets.xcassets */,
 				BAA59B421BCA3902008162A4 /* LaunchScreen.storyboard */,
 				BAA59B451BCA3902008162A4 /* Info.plist */,
@@ -118,6 +189,8 @@
 			isa = PBXGroup;
 			children = (
 				BAA59B351BCA3902008162A4 /* main.m */,
+				BA259E7A1BD23EA000640349 /* JRBHeaderFile.h */,
+				BA259E7B1BD23F1300640349 /* JRBPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -245,7 +318,11 @@
 			files = (
 				BAA59B441BCA3902008162A4 /* LaunchScreen.storyboard in Resources */,
 				BAA59B411BCA3902008162A4 /* Assets.xcassets in Resources */,
+				BA259E761BD23B1E00640349 /* JRBPersonalCenterTab.storyboard in Resources */,
+				BA259E741BD23B0D00640349 /* JRBProductListTab.storyboard in Resources */,
+				BA259E781BD23B3000640349 /* JRBMoreTab.storyboard in Resources */,
 				BAA59B3F1BCA3902008162A4 /* Main.storyboard in Resources */,
+				BA259E721BD23AFC00640349 /* JRBHotTab.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +347,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAA59B691BCA3A77008162A4 /* JRBMainTabBarController.m in Sources */,
+				BA259E701BD23ABD00640349 /* JRBMainTabBarController.m in Sources */,
+				BA259E7E1BD249F800640349 /* JRBLoginAndRegisterTableViewController.m in Sources */,
 				BAA59B391BCA3902008162A4 /* AppDelegate.m in Sources */,
 				BAA59B361BCA3902008162A4 /* main.m in Sources */,
 			);
@@ -413,7 +491,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = Jurongbao/JRBPrefixHeader.pch;
 				INFOPLIST_FILE = Jurongbao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.truly.Jurongbao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +504,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = Jurongbao/JRBPrefixHeader.pch;
 				INFOPLIST_FILE = Jurongbao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.truly.Jurongbao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
