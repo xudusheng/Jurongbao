@@ -8,7 +8,6 @@
 
 #ifndef JRBHeaderFile_h
 #define JRBHeaderFile_h
-#endif /* JRBHeaderFile_h */
 
 #define kAppIdentifier [[NSBundle mainBundle]bundleIdentifier]//本应用的bundle identifier
 #define IOS6 ([[UIDevice currentDevice] systemVersion].floatValue>=6.0f)
@@ -29,3 +28,15 @@
 #define kOCColor_9 [UIColor colorWithRed:58.9/255.0 green:177.0/255.0 blue:66.0/255.0 alpha:1.0]
 #define kOCColor_10 [UIColor colorWithRed:11.0/255.0 green:172.0/255.0 blue:211.0/255.0 alpha:1.0]
 #define kOCColor_11 [UIColor colorWithRed:255.0/255.0 green:97.0/255.0 blue:56.0/255.0 alpha:1.0]
+
+
+#import "JRBRootViewController.h"
+#import "JRBRootTableViewController.h"
+
+
+#pragma mark - 第三方库
+#import "IQKeyboardManager.h"
+#import "IQKeyboardReturnKeyHandler.h"
+
+#endif /* JRBHeaderFile_h */
+

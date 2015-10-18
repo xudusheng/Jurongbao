@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JRBLoginAndRegisterTableViewController : UITableViewController
+@interface JRBLoginAndRegisterTableViewController : JRBRootTableViewController
 
 @property (copy, nonatomic)void(^loginBlock)(UIViewController *, BOOL);
 

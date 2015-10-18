@@ -100,7 +100,7 @@
     if (IOS8) {
         LRVC.modalPresentationStyle=UIModalPresentationOverCurrentContext;
     }
-    [self presentViewController:LRVC animated:YES completion:nil];
+    [self presentViewController:LRNC animated:YES completion:nil];
 }
 #pragma mark - 内存管理相关
 - (void)JRBMainTabBarControllerDataInit{

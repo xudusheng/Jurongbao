@@ -43,11 +43,51 @@
                             <outlet property="delegate" destination="yaC-5E-D3x" id="gkT-TA-uDh"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="登录" id="cRd-Ip-pZD"/>
+                    <navigationItem key="navigationItem" title="登录" id="cRd-Ip-pZD">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="OBu-0V-hbh">
+                            <connections>
+                                <segue destination="Nv7-Sh-HB6" kind="push" id="lBx-eA-ov4"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0bg-vT-M9U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="578" y="913"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="D92-dk-0eg">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QjE-wt-4h3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController hidesBottomBarWhenPushed="YES" id="Nv7-Sh-HB6" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1mA-cq-zQk"/>
+                        <viewControllerLayoutGuide type="bottom" id="W61-wx-noX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IMB-pu-yqb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mDK-wy-Php">
+                                <rect key="frame" x="20" y="518" width="280" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="fmz-wi-fu5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mDK-wy-Php" firstAttribute="leading" secondItem="IMB-pu-yqb" secondAttribute="leading" constant="20" id="V4h-by-ve7"/>
+                            <constraint firstItem="W61-wx-noX" firstAttribute="top" secondItem="mDK-wy-Php" secondAttribute="bottom" constant="20" id="hdY-GR-dMO"/>
+                            <constraint firstAttribute="trailing" secondItem="mDK-wy-Php" secondAttribute="trailing" constant="20" id="uea-Zh-uAH"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="9N9-o4-HlE"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1071" y="929"/>
         </scene>
         <!--登录-->
         <scene sceneID="P3l-XB-onf">
