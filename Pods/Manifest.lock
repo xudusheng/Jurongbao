@@ -20,17 +20,35 @@ PODS:
   - AFNetworking/UIKit (2.4.1):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
   - IQKeyboardManager (3.3.2)
   - JSONKit-NoWarning (1.2)
+  - Masonry (0.6.3)
+  - Reachability (3.2)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.4.0)
+  - FMDB (~> 2.5)
   - IQKeyboardManager (~> 3.3.2)
   - JSONKit-NoWarning (~> 1.2)
+  - Masonry (~> 0.6.3)
+  - Reachability (~> 3.2)
+  - SDWebImage (~> 3.7.3)
 
 SPEC CHECKSUMS:
   AFNetworking: 41d45d2c14219af0fa5addf3cfd433a002c13c9f
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
   IQKeyboardManager: d863eb0bca424d1f6dad6bdd1f856af52664add8
   JSONKit-NoWarning: 3d27e6f9e6846ecf741e8c64dcadd7d5aa7193cb
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
 
 COCOAPODS: 0.39.0
