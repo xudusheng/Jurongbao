@@ -28,16 +28,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Uxb-Uu-qMu">
-                                <rect key="frame" x="0.0" y="92" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Uxb-Uu-qMu" id="ROQ-KO-bYg">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="yaC-5E-D3x" id="sk0-U3-lBW"/>
                             <outlet property="delegate" destination="yaC-5E-D3x" id="gkT-TA-uDh"/>
@@ -46,7 +36,7 @@
                     <navigationItem key="navigationItem" title="登录" id="cRd-Ip-pZD">
                         <barButtonItem key="rightBarButtonItem" title="Item" id="OBu-0V-hbh">
                             <connections>
-                                <segue destination="Nv7-Sh-HB6" kind="push" id="lBx-eA-ov4"/>
+                                <segue destination="Nv7-Sh-HB6" kind="show" id="lBx-eA-ov4"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -58,7 +48,6 @@
         <!--View Controller-->
         <scene sceneID="D92-dk-0eg">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QjE-wt-4h3" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController hidesBottomBarWhenPushed="YES" id="Nv7-Sh-HB6" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1mA-cq-zQk"/>
@@ -86,8 +75,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="9N9-o4-HlE"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QjE-wt-4h3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1071" y="929"/>
+            <point key="canvasLocation" x="1023" y="913"/>
         </scene>
         <!--登录-->
         <scene sceneID="P3l-XB-onf">

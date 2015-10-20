@@ -8,7 +8,7 @@
         <!--限时抢购Nav-->
         <scene sceneID="9O3-BR-rcr">
             <objects>
-                <navigationController storyboardIdentifier="JRBHotNavigationController" hidesBarsWhenKeyboardAppears="YES" id="fc0-ZS-Idc" userLabel="限时抢购Nav" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="JRBHotNavigationController" id="fc0-ZS-Idc" userLabel="限时抢购Nav" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="限时抢购" id="WEV-96-0lD" userLabel="限时抢购"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
@@ -40,7 +40,7 @@
                     <navigationItem key="navigationItem" id="cAc-HF-VNY">
                         <barButtonItem key="rightBarButtonItem" title="Item" id="2x4-tZ-pGo">
                             <connections>
-                                <segue destination="Yqh-mc-B8k" kind="push" id="X0u-wd-bEr"/>
+                                <segue destination="Yqh-mc-B8k" kind="show" id="X0u-wd-bEr"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
