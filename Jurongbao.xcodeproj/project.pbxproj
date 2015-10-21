@@ -28,6 +28,8 @@
 		BADD6AF81BD68A430057B797 /* JRBProductListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BADD6AF71BD68A430057B797 /* JRBProductListTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BADD6AFC1BD68A750057B797 /* JRBPersonalCenterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BADD6AFB1BD68A750057B797 /* JRBPersonalCenterTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BADD6AFF1BD68D330057B797 /* JRBPersonalCenterHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BADD6AFE1BD68D330057B797 /* JRBPersonalCenterHeaderView.m */; settings = {ASSET_TAGS = (); }; };
+		BADD6B021BD7E8170057B797 /* JRBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BADD6B011BD7E8170057B797 /* JRBWebViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BADD6B051BD7E8390057B797 /* JRBWebProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BADD6B041BD7E8390057B797 /* JRBWebProgressView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +90,10 @@
 		BADD6AFB1BD68A750057B797 /* JRBPersonalCenterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBPersonalCenterTableViewController.m; sourceTree = "<group>"; };
 		BADD6AFD1BD68D330057B797 /* JRBPersonalCenterHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBPersonalCenterHeaderView.h; sourceTree = "<group>"; };
 		BADD6AFE1BD68D330057B797 /* JRBPersonalCenterHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBPersonalCenterHeaderView.m; sourceTree = "<group>"; };
+		BADD6B001BD7E8170057B797 /* JRBWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBWebViewController.h; sourceTree = "<group>"; };
+		BADD6B011BD7E8170057B797 /* JRBWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBWebViewController.m; sourceTree = "<group>"; };
+		BADD6B031BD7E8390057B797 /* JRBWebProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBWebProgressView.h; sourceTree = "<group>"; };
+		BADD6B041BD7E8390057B797 /* JRBWebProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBWebProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +154,10 @@
 				BA259E711BD23AFC00640349 /* JRBHotTab.storyboard */,
 				BA259EBE1BD2A15000640349 /* JRBHotViewController.h */,
 				BA259EBF1BD2A15000640349 /* JRBHotViewController.m */,
+				BADD6B001BD7E8170057B797 /* JRBWebViewController.h */,
+				BADD6B011BD7E8170057B797 /* JRBWebViewController.m */,
+				BADD6B031BD7E8390057B797 /* JRBWebProgressView.h */,
+				BADD6B041BD7E8390057B797 /* JRBWebProgressView.m */,
 			);
 			path = JRBHotTab;
 			sourceTree = "<group>";
@@ -491,9 +501,11 @@
 				BA259EC01BD2A15000640349 /* JRBHotViewController.m in Sources */,
 				BAA59B391BCA3902008162A4 /* AppDelegate.m in Sources */,
 				BADD6AFC1BD68A750057B797 /* JRBPersonalCenterTableViewController.m in Sources */,
+				BADD6B021BD7E8170057B797 /* JRBWebViewController.m in Sources */,
 				BADD6AFF1BD68D330057B797 /* JRBPersonalCenterHeaderView.m in Sources */,
 				BA259E861BD2881800640349 /* JRBRootTableViewController.m in Sources */,
 				BAA59B361BCA3902008162A4 /* main.m in Sources */,
+				BADD6B051BD7E8390057B797 /* JRBWebProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
