@@ -8,7 +8,8 @@
 
 #import "JRBHotViewController.h"
 #import "JRBHotPieceView.h"
-@interface JRBHotViewController ()
+#import "JRBHotTableViewCell.h"
+@interface JRBHotViewController ()<UITableViewDataSource, UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *hotTableView;
 
 @end
@@ -48,7 +49,13 @@
 #pragma mark - 网络请求
 
 #pragma mark - 代理方法
-
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 10;
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    JRBHotTableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"JRBHotTableViewCell"];
+    return cell;
+}
 #pragma mark - 点击事件处理
 
 #pragma mark - 其他私有方法

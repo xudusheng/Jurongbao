@@ -22,6 +22,7 @@
 		BA259E7E1BD249F800640349 /* JRBLoginAndRegisterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA259E7D1BD249F800640349 /* JRBLoginAndRegisterTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BA259E831BD287D100640349 /* JRBRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA259E821BD287D100640349 /* JRBRootViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BA259E861BD2881800640349 /* JRBRootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA259E851BD2881800640349 /* JRBRootTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BA622C9C1BD9A62800E899E3 /* JRBHotTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA622C9B1BD9A62800E899E3 /* JRBHotTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		BAA0D1B81BCFEF4C00ECE6A2 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA0D1B71BCFEF4C00ECE6A2 /* LocalAuthentication.framework */; };
 		BAA59B361BCA3902008162A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59B351BCA3902008162A4 /* main.m */; };
 		BAA59B391BCA3902008162A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59B381BCA3902008162A4 /* AppDelegate.m */; };
@@ -81,6 +82,8 @@
 		BA259E821BD287D100640349 /* JRBRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBRootViewController.m; sourceTree = "<group>"; };
 		BA259E841BD2881800640349 /* JRBRootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBRootTableViewController.h; sourceTree = "<group>"; };
 		BA259E851BD2881800640349 /* JRBRootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBRootTableViewController.m; sourceTree = "<group>"; };
+		BA622C9A1BD9A62800E899E3 /* JRBHotTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBHotTableViewCell.h; sourceTree = "<group>"; };
+		BA622C9B1BD9A62800E899E3 /* JRBHotTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBHotTableViewCell.m; sourceTree = "<group>"; };
 		BAA0D1B71BCFEF4C00ECE6A2 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		BAA59B311BCA3902008162A4 /* Jurongbao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jurongbao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA59B351BCA3902008162A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -153,6 +156,8 @@
 			children = (
 				BA009CE51BD9256A00C3D002 /* JRBHotViewController.h */,
 				BA009CE61BD9256A00C3D002 /* JRBHotViewController.m */,
+				BA622C9A1BD9A62800E899E3 /* JRBHotTableViewCell.h */,
+				BA622C9B1BD9A62800E899E3 /* JRBHotTableViewCell.m */,
 				BA009CE71BD9256A00C3D002 /* JRBWebProgressView.h */,
 				BA009CE81BD9256A00C3D002 /* JRBWebProgressView.m */,
 				BA009CE91BD9256A00C3D002 /* JRBWebViewController.h */,
@@ -538,6 +543,7 @@
 				BA009CEB1BD9256A00C3D002 /* JRBHotPieceView.m in Sources */,
 				BAA59B361BCA3902008162A4 /* main.m in Sources */,
 				BA009CEE1BD9256A00C3D002 /* JRBWebProgressView.m in Sources */,
+				BA622C9C1BD9A62800E899E3 /* JRBHotTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
