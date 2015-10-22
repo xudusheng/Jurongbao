@@ -35,7 +35,8 @@
 
 
 -(void)createProgessBar{
-    JRBWebProgressView *pv = [[JRBWebProgressView alloc]initWithFrame:CGRectMake(0, 44-3, self.view.frame.size.width, 3)
+    CGRect frame = CGRectMake(0, 44-3, self.view.frame.size.width, 3);
+    JRBWebProgressView *pv = [[JRBWebProgressView alloc]initWithFrame:frame
                                                        progressHeight:3];
     [self.navigationController.navigationBar addSubview:pv];
     self.webProgressView = pv;

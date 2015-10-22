@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		01BD1C91EA575DA1F6005A24 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C9A0B72C03CF4AC438DD31 /* libPods.a */; };
+		BA009CEB1BD9256A00C3D002 /* JRBHotPieceView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA009CE31BD9256A00C3D002 /* JRBHotPieceView.m */; settings = {ASSET_TAGS = (); }; };
+		BA009CEC1BD9256A00C3D002 /* JRBHotPieceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA009CE41BD9256A00C3D002 /* JRBHotPieceView.xib */; settings = {ASSET_TAGS = (); }; };
+		BA009CED1BD9256A00C3D002 /* JRBHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA009CE61BD9256A00C3D002 /* JRBHotViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BA009CEE1BD9256A00C3D002 /* JRBWebProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA009CE81BD9256A00C3D002 /* JRBWebProgressView.m */; settings = {ASSET_TAGS = (); }; };
+		BA009CEF1BD9256A00C3D002 /* JRBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA009CEA1BD9256A00C3D002 /* JRBWebViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BA009CF31BD92DF300C3D002 /* CALayer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = BA009CF21BD92DF300C3D002 /* CALayer+Addition.m */; settings = {ASSET_TAGS = (); }; };
 		BA259E701BD23ABD00640349 /* JRBMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA259E6F1BD23ABD00640349 /* JRBMainTabBarController.m */; settings = {ASSET_TAGS = (); }; };
 		BA259E721BD23AFC00640349 /* JRBHotTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA259E711BD23AFC00640349 /* JRBHotTab.storyboard */; settings = {ASSET_TAGS = (); }; };
 		BA259E741BD23B0D00640349 /* JRBProductListTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA259E731BD23B0D00640349 /* JRBProductListTab.storyboard */; settings = {ASSET_TAGS = (); }; };
@@ -16,7 +22,6 @@
 		BA259E7E1BD249F800640349 /* JRBLoginAndRegisterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA259E7D1BD249F800640349 /* JRBLoginAndRegisterTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BA259E831BD287D100640349 /* JRBRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA259E821BD287D100640349 /* JRBRootViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BA259E861BD2881800640349 /* JRBRootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA259E851BD2881800640349 /* JRBRootTableViewController.m */; settings = {ASSET_TAGS = (); }; };
-		BA259EC01BD2A15000640349 /* JRBHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA259EBF1BD2A15000640349 /* JRBHotViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BAA0D1B81BCFEF4C00ECE6A2 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA0D1B71BCFEF4C00ECE6A2 /* LocalAuthentication.framework */; };
 		BAA59B361BCA3902008162A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59B351BCA3902008162A4 /* main.m */; };
 		BAA59B391BCA3902008162A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59B381BCA3902008162A4 /* AppDelegate.m */; };
@@ -28,8 +33,6 @@
 		BADD6AF81BD68A430057B797 /* JRBProductListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BADD6AF71BD68A430057B797 /* JRBProductListTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BADD6AFC1BD68A750057B797 /* JRBPersonalCenterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BADD6AFB1BD68A750057B797 /* JRBPersonalCenterTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BADD6AFF1BD68D330057B797 /* JRBPersonalCenterHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BADD6AFE1BD68D330057B797 /* JRBPersonalCenterHeaderView.m */; settings = {ASSET_TAGS = (); }; };
-		BADD6B021BD7E8170057B797 /* JRBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BADD6B011BD7E8170057B797 /* JRBWebViewController.m */; settings = {ASSET_TAGS = (); }; };
-		BADD6B051BD7E8390057B797 /* JRBWebProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BADD6B041BD7E8390057B797 /* JRBWebProgressView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,17 @@
 		39C934036189BEE6497CFAA2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		57C9A0B72C03CF4AC438DD31 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DCD3480A4DA155009EAFDDA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BA009CE21BD9256A00C3D002 /* JRBHotPieceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBHotPieceView.h; sourceTree = "<group>"; };
+		BA009CE31BD9256A00C3D002 /* JRBHotPieceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBHotPieceView.m; sourceTree = "<group>"; };
+		BA009CE41BD9256A00C3D002 /* JRBHotPieceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JRBHotPieceView.xib; sourceTree = "<group>"; };
+		BA009CE51BD9256A00C3D002 /* JRBHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBHotViewController.h; sourceTree = "<group>"; };
+		BA009CE61BD9256A00C3D002 /* JRBHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBHotViewController.m; sourceTree = "<group>"; };
+		BA009CE71BD9256A00C3D002 /* JRBWebProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBWebProgressView.h; sourceTree = "<group>"; };
+		BA009CE81BD9256A00C3D002 /* JRBWebProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBWebProgressView.m; sourceTree = "<group>"; };
+		BA009CE91BD9256A00C3D002 /* JRBWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBWebViewController.h; sourceTree = "<group>"; };
+		BA009CEA1BD9256A00C3D002 /* JRBWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBWebViewController.m; sourceTree = "<group>"; };
+		BA009CF11BD92DF300C3D002 /* CALayer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Addition.h"; sourceTree = "<group>"; };
+		BA009CF21BD92DF300C3D002 /* CALayer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Addition.m"; sourceTree = "<group>"; };
 		BA259E6E1BD23ABD00640349 /* JRBMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBMainTabBarController.h; sourceTree = "<group>"; };
 		BA259E6F1BD23ABD00640349 /* JRBMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBMainTabBarController.m; sourceTree = "<group>"; };
 		BA259E711BD23AFC00640349 /* JRBHotTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JRBHotTab.storyboard; sourceTree = "<group>"; };
@@ -67,8 +81,6 @@
 		BA259E821BD287D100640349 /* JRBRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBRootViewController.m; sourceTree = "<group>"; };
 		BA259E841BD2881800640349 /* JRBRootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBRootTableViewController.h; sourceTree = "<group>"; };
 		BA259E851BD2881800640349 /* JRBRootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBRootTableViewController.m; sourceTree = "<group>"; };
-		BA259EBE1BD2A15000640349 /* JRBHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBHotViewController.h; sourceTree = "<group>"; };
-		BA259EBF1BD2A15000640349 /* JRBHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBHotViewController.m; sourceTree = "<group>"; };
 		BAA0D1B71BCFEF4C00ECE6A2 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		BAA59B311BCA3902008162A4 /* Jurongbao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jurongbao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA59B351BCA3902008162A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,10 +102,6 @@
 		BADD6AFB1BD68A750057B797 /* JRBPersonalCenterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBPersonalCenterTableViewController.m; sourceTree = "<group>"; };
 		BADD6AFD1BD68D330057B797 /* JRBPersonalCenterHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBPersonalCenterHeaderView.h; sourceTree = "<group>"; };
 		BADD6AFE1BD68D330057B797 /* JRBPersonalCenterHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBPersonalCenterHeaderView.m; sourceTree = "<group>"; };
-		BADD6B001BD7E8170057B797 /* JRBWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBWebViewController.h; sourceTree = "<group>"; };
-		BADD6B011BD7E8170057B797 /* JRBWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBWebViewController.m; sourceTree = "<group>"; };
-		BADD6B031BD7E8390057B797 /* JRBWebProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBWebProgressView.h; sourceTree = "<group>"; };
-		BADD6B041BD7E8390057B797 /* JRBWebProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBWebProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +148,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BA009CD31BD9254900C3D002 /* JRBHot */ = {
+			isa = PBXGroup;
+			children = (
+				BA009CE51BD9256A00C3D002 /* JRBHotViewController.h */,
+				BA009CE61BD9256A00C3D002 /* JRBHotViewController.m */,
+				BA009CE71BD9256A00C3D002 /* JRBWebProgressView.h */,
+				BA009CE81BD9256A00C3D002 /* JRBWebProgressView.m */,
+				BA009CE91BD9256A00C3D002 /* JRBWebViewController.h */,
+				BA009CEA1BD9256A00C3D002 /* JRBWebViewController.m */,
+				BA009CE21BD9256A00C3D002 /* JRBHotPieceView.h */,
+				BA009CE31BD9256A00C3D002 /* JRBHotPieceView.m */,
+				BA009CE41BD9256A00C3D002 /* JRBHotPieceView.xib */,
+			);
+			path = JRBHot;
+			sourceTree = "<group>";
+		};
+		BA009CF01BD92DE600C3D002 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BA009CF11BD92DF300C3D002 /* CALayer+Addition.h */,
+				BA009CF21BD92DF300C3D002 /* CALayer+Addition.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		BA259E661BD23A5900640349 /* JRBMoreTab */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,12 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				BA259E711BD23AFC00640349 /* JRBHotTab.storyboard */,
-				BA259EBE1BD2A15000640349 /* JRBHotViewController.h */,
-				BA259EBF1BD2A15000640349 /* JRBHotViewController.m */,
-				BADD6B001BD7E8170057B797 /* JRBWebViewController.h */,
-				BADD6B011BD7E8170057B797 /* JRBWebViewController.m */,
-				BADD6B031BD7E8390057B797 /* JRBWebProgressView.h */,
-				BADD6B041BD7E8390057B797 /* JRBWebProgressView.m */,
+				BA009CD31BD9254900C3D002 /* JRBHot */,
 			);
 			path = JRBHotTab;
 			sourceTree = "<group>";
@@ -252,6 +280,7 @@
 				BA259E681BD23A6600640349 /* JRBProductListTab */,
 				BA259E691BD23A6E00640349 /* JRBPersonalCenterTab */,
 				BA259E661BD23A5900640349 /* JRBMoreTab */,
+				BA009CF01BD92DE600C3D002 /* Category */,
 				BA259E7F1BD2879E00640349 /* Utilities */,
 				BAA59B401BCA3902008162A4 /* Assets.xcassets */,
 				BAA59B421BCA3902008162A4 /* LaunchScreen.storyboard */,
@@ -421,6 +450,7 @@
 				BA259E741BD23B0D00640349 /* JRBProductListTab.storyboard in Resources */,
 				BA259E781BD23B3000640349 /* JRBMoreTab.storyboard in Resources */,
 				BAA59B3F1BCA3902008162A4 /* Main.storyboard in Resources */,
+				BA009CEC1BD9256A00C3D002 /* JRBHotPieceView.xib in Resources */,
 				BA259E721BD23AFC00640349 /* JRBHotTab.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,18 +524,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA009CED1BD9256A00C3D002 /* JRBHotViewController.m in Sources */,
 				BADD6AF81BD68A430057B797 /* JRBProductListTableViewController.m in Sources */,
 				BA259E701BD23ABD00640349 /* JRBMainTabBarController.m in Sources */,
 				BA259E7E1BD249F800640349 /* JRBLoginAndRegisterTableViewController.m in Sources */,
 				BA259E831BD287D100640349 /* JRBRootViewController.m in Sources */,
-				BA259EC01BD2A15000640349 /* JRBHotViewController.m in Sources */,
 				BAA59B391BCA3902008162A4 /* AppDelegate.m in Sources */,
 				BADD6AFC1BD68A750057B797 /* JRBPersonalCenterTableViewController.m in Sources */,
-				BADD6B021BD7E8170057B797 /* JRBWebViewController.m in Sources */,
+				BA009CF31BD92DF300C3D002 /* CALayer+Addition.m in Sources */,
+				BA009CEF1BD9256A00C3D002 /* JRBWebViewController.m in Sources */,
 				BADD6AFF1BD68D330057B797 /* JRBPersonalCenterHeaderView.m in Sources */,
 				BA259E861BD2881800640349 /* JRBRootTableViewController.m in Sources */,
+				BA009CEB1BD9256A00C3D002 /* JRBHotPieceView.m in Sources */,
 				BAA59B361BCA3902008162A4 /* main.m in Sources */,
-				BADD6B051BD7E8390057B797 /* JRBWebProgressView.m in Sources */,
+				BA009CEE1BD9256A00C3D002 /* JRBWebProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
