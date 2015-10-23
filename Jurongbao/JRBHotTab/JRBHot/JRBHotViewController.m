@@ -7,6 +7,7 @@
 //
 
 #import "JRBHotViewController.h"
+#import "JRBBannerView.h"//banner
 #import "JRBHotPieceView.h"
 #import "JRBHotTableViewCell.h"
 @interface JRBHotViewController ()<UITableViewDataSource, UITableViewDelegate>
@@ -27,16 +28,25 @@
 }
 
 - (UIView *)headerView{
+    NSArray * imageURLArray = @[@"http://picapi.zhituad.com/photo/30/56/19BCA.jpg", @"http://picapi.ooopic.com/10/29/52/54b1OOOPIC3d.jpg", @"http://pic2.ooopic.com/10/55/15/97b1OOOPICdc.jpg"];
+    JRBBannerView * banner = nil;
+    if (imageURLArray.count) {
+        banner = [[JRBBannerView alloc]initWithURLArray:imageURLArray selectBlock:^(NSInteger selectIndex) {
+            
+        }];
+    }
+
+    CGFloat bannerHeigh = banner?banner.frame.size.height:0;
     CGFloat gap = 10;
     CGFloat width = (kScreenWidth - gap * 3)/2;
     CGFloat height = 100;
-    UIView * headerView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, height*2 + gap * 3)];
-    headerView.backgroundColor = kOCColor_6;
+    UIView * headerView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, bannerHeigh + (height*2 + gap * 3))];
+    banner?[headerView addSubview:banner]:0;
     for (int i = 0; i < 2; i ++) {
         for (int j = 0; j < 2; j ++) {
             JRBHotPieceView * pieceView = [[[NSBundle mainBundle]loadNibNamed:@"JRBHotPieceView" owner:self options:nil]lastObject];
             CGFloat origin_x = gap + (gap + width)*j;
-            CGFloat origin_y = gap + (gap + height)*i;
+            CGFloat origin_y = bannerHeigh + gap + (gap + height)*i;
             pieceView.frame = CGRectMake(origin_x, origin_y, width, height);
             NSLog(@"piece = %@", pieceView);
             [headerView addSubview:pieceView];

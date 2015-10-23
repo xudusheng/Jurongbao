@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
@@ -27,7 +27,7 @@
             </objects>
             <point key="canvasLocation" x="81" y="387"/>
         </scene>
-        <!--Hot View Controller-->
+        <!--徽贷宝-->
         <scene sceneID="7ke-ht-iYT">
             <objects>
                 <viewController id="Hco-tD-IpJ" customClass="JRBHotViewController" sceneMemberID="viewController">
@@ -42,40 +42,41 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="80" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="bvW-dp-0Bj">
                                 <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                                 <animations/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexColor" red="0.1764705882352941" green="0.1764705882352941" blue="0.1764705882352941" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="JRBHotTableViewCell" rowHeight="80" id="Xls-Zr-e0A" customClass="JRBHotTableViewCell">
-                                        <rect key="frame" x="0.0" y="114" width="320" height="80"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="JRBHotTableViewCell" rowHeight="80" id="Xls-Zr-e0A" customClass="JRBHotTableViewCell">
+                                        <rect key="frame" x="0.0" y="113.5" width="320" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xls-Zr-e0A" id="Kml-6w-iTN">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dEn-Uj-QtR">
-                                                    <rect key="frame" x="10" y="2" width="300" height="78"/>
+                                                    <rect key="frame" x="10" y="1" width="300" height="79"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="徽贷宝008期" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3iz-GJ-QxM">
                                                             <rect key="frame" x="10" y="5" width="88" height="18"/>
                                                             <animations/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e6K-pk-byj" userLabel="firstView">
-                                                            <rect key="frame" x="10" y="28" width="80" height="45"/>
+                                                            <rect key="frame" x="10" y="28" width="80" height="46"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="预期年化" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y8J-ns-idF">
                                                                     <rect key="frame" x="0.0" y="24" width="40" height="12"/>
                                                                     <animations/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.58823529411764708" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8.0%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kQZ-lz-uxx">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="46" height="24"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="45.5" height="24"/>
                                                                     <animations/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                    <color key="textColor" red="0.90196078431372551" green="0.27058823529411763" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                             </subviews>
@@ -88,55 +89,84 @@
                                                             </constraints>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FYB-Tv-smO" userLabel="third">
-                                                            <rect key="frame" x="170" y="28" width="80" height="45"/>
+                                                            <rect key="frame" x="170" y="28" width="80" height="46"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="预期年化" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BmV-AN-VSK">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已购人数" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BmV-AN-VSK">
                                                                     <rect key="frame" x="0.0" y="24" width="40" height="12"/>
                                                                     <animations/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8.0%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="36e-cn-0SB">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="46" height="24"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="177" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="36e-cn-0SB">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="32" height="24"/>
                                                                     <animations/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                    <color key="textColor" red="0.1764705882352941" green="0.1764705882352941" blue="0.1764705882352941" alpha="1" colorSpace="calibratedRGB"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="人" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iPt-vl-EGA">
+                                                                    <rect key="frame" x="32" y="5.5" width="12" height="14.5"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                    <color key="textColor" red="0.1764705882" green="0.1764705882" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                             </subviews>
                                                             <animations/>
                                                             <constraints>
                                                                 <constraint firstItem="BmV-AN-VSK" firstAttribute="leading" secondItem="FYB-Tv-smO" secondAttribute="leading" id="1rM-Bv-DCU"/>
+                                                                <constraint firstItem="iPt-vl-EGA" firstAttribute="leading" secondItem="36e-cn-0SB" secondAttribute="trailing" id="78S-Dc-RxE"/>
                                                                 <constraint firstItem="BmV-AN-VSK" firstAttribute="top" secondItem="36e-cn-0SB" secondAttribute="bottom" id="L0h-Rs-qw8"/>
+                                                                <constraint firstItem="iPt-vl-EGA" firstAttribute="centerY" secondItem="36e-cn-0SB" secondAttribute="centerY" id="YKN-03-nb9"/>
                                                                 <constraint firstItem="36e-cn-0SB" firstAttribute="leading" secondItem="FYB-Tv-smO" secondAttribute="leading" id="eSp-Bj-H2e"/>
                                                                 <constraint firstItem="36e-cn-0SB" firstAttribute="top" secondItem="FYB-Tv-smO" secondAttribute="top" id="h6D-g0-eZS"/>
                                                             </constraints>
                                                         </view>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UYU-rj-agh">
-                                                            <rect key="frame" x="240" y="37" width="55" height="27"/>
+                                                            <rect key="frame" x="230" y="37" width="65" height="27"/>
                                                             <animations/>
                                                             <constraints>
-                                                                <constraint firstAttribute="width" constant="55" id="V3i-SN-2Gp"/>
+                                                                <constraint firstAttribute="width" constant="65" id="V3i-SN-2Gp"/>
                                                             </constraints>
                                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                            <state key="normal" title="查看详情"/>
+                                                            <state key="normal" title="查看详情">
+                                                                <color key="titleColor" red="0.90196078431372551" green="0.27058823529411763" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                                                            </state>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                    <integer key="value" value="5"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                                    <integer key="value" value="1"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColorFromUIColor">
+                                                                    <color key="value" red="0.90196078431372551" green="0.27058823529411763" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="exclusiveTouch" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
                                                         </button>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o78-4x-zHX" userLabel="secondView">
-                                                            <rect key="frame" x="90" y="28" width="80" height="45"/>
+                                                            <rect key="frame" x="90" y="28" width="80" height="46"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="预期年化" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kqh-8b-BIH">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="投资期限" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kqh-8b-BIH">
                                                                     <rect key="frame" x="0.0" y="24" width="40" height="12"/>
                                                                     <animations/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8.0%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l1U-Gc-dJ9">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="46" height="24"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="120" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l1U-Gc-dJ9">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="33.5" height="24"/>
                                                                     <animations/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                    <color key="textColor" red="0.1764705882352941" green="0.1764705882352941" blue="0.1764705882352941" alpha="1" colorSpace="calibratedRGB"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="天" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PcS-XS-deX">
+                                                                    <rect key="frame" x="33.5" y="5" width="12" height="14.5"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                    <color key="textColor" red="0.1764705882" green="0.1764705882" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                             </subviews>
@@ -146,6 +176,8 @@
                                                                 <constraint firstItem="l1U-Gc-dJ9" firstAttribute="leading" secondItem="o78-4x-zHX" secondAttribute="leading" id="6fC-ca-wHG"/>
                                                                 <constraint firstItem="l1U-Gc-dJ9" firstAttribute="top" secondItem="o78-4x-zHX" secondAttribute="top" id="R7b-Iz-btf"/>
                                                                 <constraint firstItem="kqh-8b-BIH" firstAttribute="top" secondItem="l1U-Gc-dJ9" secondAttribute="bottom" id="fEK-ur-wuh"/>
+                                                                <constraint firstItem="PcS-XS-deX" firstAttribute="centerY" secondItem="l1U-Gc-dJ9" secondAttribute="centerY" id="qDR-xt-aQ0"/>
+                                                                <constraint firstItem="PcS-XS-deX" firstAttribute="leading" secondItem="l1U-Gc-dJ9" secondAttribute="trailing" id="rpg-KE-Zb9"/>
                                                             </constraints>
                                                         </view>
                                                     </subviews>
@@ -172,9 +204,9 @@
                                                 </view>
                                             </subviews>
                                             <animations/>
-                                            <color key="backgroundColor" red="0.84313725490000002" green="0.84313725490000002" blue="0.84313725490000002" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="deviceRGB"/>
                                             <constraints>
-                                                <constraint firstItem="dEn-Uj-QtR" firstAttribute="top" secondItem="Kml-6w-iTN" secondAttribute="top" constant="2" id="guZ-ud-uy4"/>
+                                                <constraint firstItem="dEn-Uj-QtR" firstAttribute="top" secondItem="Kml-6w-iTN" secondAttribute="top" constant="1" id="guZ-ud-uy4"/>
                                                 <constraint firstAttribute="bottom" secondItem="dEn-Uj-QtR" secondAttribute="bottom" id="jDg-Tj-HrD"/>
                                                 <constraint firstAttribute="trailing" secondItem="dEn-Uj-QtR" secondAttribute="trailing" constant="10" id="wzj-eV-PNz"/>
                                                 <constraint firstItem="dEn-Uj-QtR" firstAttribute="leading" secondItem="Kml-6w-iTN" secondAttribute="leading" constant="10" id="y63-f6-pie"/>
@@ -198,8 +230,9 @@
                             <constraint firstItem="bvW-dp-0Bj" firstAttribute="top" secondItem="6vh-zJ-9hN" secondAttribute="bottom" id="YZt-eb-I9d"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="cAc-HF-VNY">
+                    <navigationItem key="navigationItem" title="徽贷宝" id="cAc-HF-VNY">
                         <barButtonItem key="rightBarButtonItem" title="Item" id="2x4-tZ-pGo">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
                                 <segue destination="Yqh-mc-B8k" kind="show" id="X0u-wd-bEr"/>
                             </connections>

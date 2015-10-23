@@ -16,7 +16,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+
     IQKeyboardManager *manager = [IQKeyboardManager sharedManager];
     manager.enable = YES;
 //    manager.shouldResignOnTouchOutside = YES;

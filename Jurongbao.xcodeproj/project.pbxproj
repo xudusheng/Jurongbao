@@ -23,6 +23,7 @@
 		BA259E831BD287D100640349 /* JRBRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA259E821BD287D100640349 /* JRBRootViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BA259E861BD2881800640349 /* JRBRootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA259E851BD2881800640349 /* JRBRootTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BA622C9C1BD9A62800E899E3 /* JRBHotTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA622C9B1BD9A62800E899E3 /* JRBHotTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		BA622C9F1BDA73C600E899E3 /* JRBBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA622C9E1BDA73C600E899E3 /* JRBBannerView.m */; settings = {ASSET_TAGS = (); }; };
 		BAA0D1B81BCFEF4C00ECE6A2 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA0D1B71BCFEF4C00ECE6A2 /* LocalAuthentication.framework */; };
 		BAA59B361BCA3902008162A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59B351BCA3902008162A4 /* main.m */; };
 		BAA59B391BCA3902008162A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59B381BCA3902008162A4 /* AppDelegate.m */; };
@@ -84,6 +85,9 @@
 		BA259E851BD2881800640349 /* JRBRootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBRootTableViewController.m; sourceTree = "<group>"; };
 		BA622C9A1BD9A62800E899E3 /* JRBHotTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBHotTableViewCell.h; sourceTree = "<group>"; };
 		BA622C9B1BD9A62800E899E3 /* JRBHotTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBHotTableViewCell.m; sourceTree = "<group>"; };
+		BA622C9D1BDA73C600E899E3 /* JRBBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBBannerView.h; sourceTree = "<group>"; };
+		BA622C9E1BDA73C600E899E3 /* JRBBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBBannerView.m; sourceTree = "<group>"; };
+		BA622CA31BDA7AD700E899E3 /* JRBEnumFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRBEnumFile.h; sourceTree = "<group>"; };
 		BAA0D1B71BCFEF4C00ECE6A2 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		BAA59B311BCA3902008162A4 /* Jurongbao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jurongbao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA59B351BCA3902008162A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -162,6 +166,8 @@
 				BA009CE81BD9256A00C3D002 /* JRBWebProgressView.m */,
 				BA009CE91BD9256A00C3D002 /* JRBWebViewController.h */,
 				BA009CEA1BD9256A00C3D002 /* JRBWebViewController.m */,
+				BA622C9D1BDA73C600E899E3 /* JRBBannerView.h */,
+				BA622C9E1BDA73C600E899E3 /* JRBBannerView.m */,
 				BA009CE21BD9256A00C3D002 /* JRBHotPieceView.h */,
 				BA009CE31BD9256A00C3D002 /* JRBHotPieceView.m */,
 				BA009CE41BD9256A00C3D002 /* JRBHotPieceView.xib */,
@@ -300,6 +306,7 @@
 			children = (
 				BAA59B351BCA3902008162A4 /* main.m */,
 				BA259E7A1BD23EA000640349 /* JRBHeaderFile.h */,
+				BA622CA31BDA7AD700E899E3 /* JRBEnumFile.h */,
 				BA259E7B1BD23F1300640349 /* JRBPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
@@ -538,6 +545,7 @@
 				BADD6AFC1BD68A750057B797 /* JRBPersonalCenterTableViewController.m in Sources */,
 				BA009CF31BD92DF300C3D002 /* CALayer+Addition.m in Sources */,
 				BA009CEF1BD9256A00C3D002 /* JRBWebViewController.m in Sources */,
+				BA622C9F1BDA73C600E899E3 /* JRBBannerView.m in Sources */,
 				BADD6AFF1BD68D330057B797 /* JRBPersonalCenterHeaderView.m in Sources */,
 				BA259E861BD2881800640349 /* JRBRootTableViewController.m in Sources */,
 				BA009CEB1BD9256A00C3D002 /* JRBHotPieceView.m in Sources */,

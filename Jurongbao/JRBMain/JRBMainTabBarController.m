@@ -42,7 +42,7 @@
     JRBMoreNav.navigationBar.translucent = NO;
     [self.tabBar setTranslucent:NO];
     self.viewControllers = @[JRBHotNav, JRBProductListNav, JRBPersonalCenterNav, JRBMoreNav];
-    self.tabBar.selectedImageTintColor = kOCColor_4;
+    self.tabBar.selectedImageTintColor = kJRBColor_4;
     
     NSArray * selectedImages = @[@"ico_hot_on", @"ico_list_on", @"ico_user_on", @"ico_about_on"];
     NSArray * itemArray = self.tabBar.items;
@@ -50,7 +50,15 @@
         UITabBarItem * item = itemArray[i];
         [item setSelectedImage:[UIImage imageNamed:selectedImages[i]]];
     }
-    [[UINavigationBar appearance] setBarTintColor:[UIColor whiteColor]];
+    
+    //设置导航栏颜色
+    [[UINavigationBar appearance] setBarTintColor:kJRBColor_6];
+    //设置导航栏标题颜色
+    //这里我们设置的是颜色，还可以设置shadow等，具体可以参见api
+    NSDictionary * dict = [NSDictionary dictionaryWithObject:kWhiteColor forKey:NSForegroundColorAttributeName];
+    [UINavigationBar appearance].titleTextAttributes = dict;
+    
+    [[UITabBar appearance] setBarTintColor:kJRBColor_7];
 }
 
 #pragma mark - 网络请求

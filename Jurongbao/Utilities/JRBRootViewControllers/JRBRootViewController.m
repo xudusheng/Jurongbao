@@ -18,7 +18,7 @@
     [super viewDidLoad];
     
     UIBarButtonItem * barButtonItem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"ico_back"] style:UIBarButtonItemStyleDone target:self action:@selector(popBack:)];
-    barButtonItem.tintColor = kOCColor_3;
+    barButtonItem.tintColor = kJRBColor_5;
     self.navigationItem.leftBarButtonItem = barButtonItem;
 }
 
