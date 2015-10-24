@@ -19,11 +19,13 @@
 		BA259E741BD23B0D00640349 /* JRBProductListTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA259E731BD23B0D00640349 /* JRBProductListTab.storyboard */; settings = {ASSET_TAGS = (); }; };
 		BA259E761BD23B1E00640349 /* JRBPersonalCenterTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA259E751BD23B1E00640349 /* JRBPersonalCenterTab.storyboard */; settings = {ASSET_TAGS = (); }; };
 		BA259E781BD23B3000640349 /* JRBMoreTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA259E771BD23B3000640349 /* JRBMoreTab.storyboard */; settings = {ASSET_TAGS = (); }; };
-		BA259E7E1BD249F800640349 /* JRBLoginAndRegisterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA259E7D1BD249F800640349 /* JRBLoginAndRegisterTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BA259E831BD287D100640349 /* JRBRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA259E821BD287D100640349 /* JRBRootViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BA259E861BD2881800640349 /* JRBRootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA259E851BD2881800640349 /* JRBRootTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BA622C9C1BD9A62800E899E3 /* JRBHotTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA622C9B1BD9A62800E899E3 /* JRBHotTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		BA622C9F1BDA73C600E899E3 /* JRBBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA622C9E1BDA73C600E899E3 /* JRBBannerView.m */; settings = {ASSET_TAGS = (); }; };
+		BA7A71391BDB0EC90055F7F3 /* JRBProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7A71381BDB0EC90055F7F3 /* JRBProductDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BA7A713C1BDB33FC0055F7F3 /* JRBLoginTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7A713B1BDB33FC0055F7F3 /* JRBLoginTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BA7A713F1BDB36010055F7F3 /* JRBRegisterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7A713E1BDB36010055F7F3 /* JRBRegisterTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BAA0D1B81BCFEF4C00ECE6A2 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA0D1B71BCFEF4C00ECE6A2 /* LocalAuthentication.framework */; };
 		BAA59B361BCA3902008162A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59B351BCA3902008162A4 /* main.m */; };
 		BAA59B391BCA3902008162A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59B381BCA3902008162A4 /* AppDelegate.m */; };
@@ -77,8 +79,6 @@
 		BA259E771BD23B3000640349 /* JRBMoreTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JRBMoreTab.storyboard; sourceTree = "<group>"; };
 		BA259E7A1BD23EA000640349 /* JRBHeaderFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRBHeaderFile.h; sourceTree = "<group>"; };
 		BA259E7B1BD23F1300640349 /* JRBPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRBPrefixHeader.pch; sourceTree = "<group>"; };
-		BA259E7C1BD249F800640349 /* JRBLoginAndRegisterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBLoginAndRegisterTableViewController.h; sourceTree = "<group>"; };
-		BA259E7D1BD249F800640349 /* JRBLoginAndRegisterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBLoginAndRegisterTableViewController.m; sourceTree = "<group>"; };
 		BA259E811BD287D100640349 /* JRBRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBRootViewController.h; sourceTree = "<group>"; };
 		BA259E821BD287D100640349 /* JRBRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBRootViewController.m; sourceTree = "<group>"; };
 		BA259E841BD2881800640349 /* JRBRootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBRootTableViewController.h; sourceTree = "<group>"; };
@@ -88,6 +88,12 @@
 		BA622C9D1BDA73C600E899E3 /* JRBBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBBannerView.h; sourceTree = "<group>"; };
 		BA622C9E1BDA73C600E899E3 /* JRBBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBBannerView.m; sourceTree = "<group>"; };
 		BA622CA31BDA7AD700E899E3 /* JRBEnumFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRBEnumFile.h; sourceTree = "<group>"; };
+		BA7A71371BDB0EC90055F7F3 /* JRBProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBProductDetailViewController.h; sourceTree = "<group>"; };
+		BA7A71381BDB0EC90055F7F3 /* JRBProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBProductDetailViewController.m; sourceTree = "<group>"; };
+		BA7A713A1BDB33FC0055F7F3 /* JRBLoginTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBLoginTableViewController.h; sourceTree = "<group>"; };
+		BA7A713B1BDB33FC0055F7F3 /* JRBLoginTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBLoginTableViewController.m; sourceTree = "<group>"; };
+		BA7A713D1BDB36010055F7F3 /* JRBRegisterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBRegisterTableViewController.h; sourceTree = "<group>"; };
+		BA7A713E1BDB36010055F7F3 /* JRBRegisterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBRegisterTableViewController.m; sourceTree = "<group>"; };
 		BAA0D1B71BCFEF4C00ECE6A2 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		BAA59B311BCA3902008162A4 /* Jurongbao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jurongbao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA59B351BCA3902008162A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -206,6 +212,7 @@
 			children = (
 				BA259E731BD23B0D00640349 /* JRBProductListTab.storyboard */,
 				BADD6AF51BD68A430057B797 /* JRBProductList */,
+				BA7A71331BDB0D7D0055F7F3 /* JRBProductDetail */,
 			);
 			path = JRBProductListTab;
 			sourceTree = "<group>";
@@ -231,8 +238,10 @@
 		BA259E791BD23C6000640349 /* JRBLoginAndLogout */ = {
 			isa = PBXGroup;
 			children = (
-				BA259E7C1BD249F800640349 /* JRBLoginAndRegisterTableViewController.h */,
-				BA259E7D1BD249F800640349 /* JRBLoginAndRegisterTableViewController.m */,
+				BA7A713A1BDB33FC0055F7F3 /* JRBLoginTableViewController.h */,
+				BA7A713B1BDB33FC0055F7F3 /* JRBLoginTableViewController.m */,
+				BA7A713D1BDB36010055F7F3 /* JRBRegisterTableViewController.h */,
+				BA7A713E1BDB36010055F7F3 /* JRBRegisterTableViewController.m */,
 			);
 			path = JRBLoginAndLogout;
 			sourceTree = "<group>";
@@ -254,6 +263,15 @@
 				BA259E851BD2881800640349 /* JRBRootTableViewController.m */,
 			);
 			path = JRBRootViewControllers;
+			sourceTree = "<group>";
+		};
+		BA7A71331BDB0D7D0055F7F3 /* JRBProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				BA7A71371BDB0EC90055F7F3 /* JRBProductDetailViewController.h */,
+				BA7A71381BDB0EC90055F7F3 /* JRBProductDetailViewController.m */,
+			);
+			path = JRBProductDetail;
 			sourceTree = "<group>";
 		};
 		BAA59B281BCA3902008162A4 = {
@@ -536,13 +554,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA7A71391BDB0EC90055F7F3 /* JRBProductDetailViewController.m in Sources */,
 				BA009CED1BD9256A00C3D002 /* JRBHotViewController.m in Sources */,
 				BADD6AF81BD68A430057B797 /* JRBProductListTableViewController.m in Sources */,
 				BA259E701BD23ABD00640349 /* JRBMainTabBarController.m in Sources */,
-				BA259E7E1BD249F800640349 /* JRBLoginAndRegisterTableViewController.m in Sources */,
+				BA7A713C1BDB33FC0055F7F3 /* JRBLoginTableViewController.m in Sources */,
 				BA259E831BD287D100640349 /* JRBRootViewController.m in Sources */,
 				BAA59B391BCA3902008162A4 /* AppDelegate.m in Sources */,
 				BADD6AFC1BD68A750057B797 /* JRBPersonalCenterTableViewController.m in Sources */,
+				BA7A713F1BDB36010055F7F3 /* JRBRegisterTableViewController.m in Sources */,
 				BA009CF31BD92DF300C3D002 /* CALayer+Addition.m in Sources */,
 				BA009CEF1BD9256A00C3D002 /* JRBWebViewController.m in Sources */,
 				BA622C9F1BDA73C600E899E3 /* JRBBannerView.m in Sources */,

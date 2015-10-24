@@ -7,7 +7,7 @@
 //
 
 #import "JRBMainTabBarController.h"
-#import "JRBLoginAndRegisterTableViewController.h"//登录登出
+#import "JRBLoginTableViewController.h"//登录登出
 
 @interface JRBMainTabBarController ()<UITabBarControllerDelegate>{
     NSInteger _currentItemIndex;
@@ -92,8 +92,8 @@
         _willSelelctIndex = _currentItemIndex;
     }
     UIStoryboard * main = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    UINavigationController * LRNC = [main instantiateViewControllerWithIdentifier:@"JRBLoginAndRegisterNavigationController"];
-    JRBLoginAndRegisterTableViewController * LRVC = LRNC.viewControllers[0];
+    UINavigationController * LRNC = [main instantiateViewControllerWithIdentifier:@"JRBLoginNavigationController"];
+    JRBLoginTableViewController * LRVC = LRNC.viewControllers[0];
     [LRVC setLoginBlock:^(UIViewController * login, BOOL success) {
         if (success) {
             _currentItemIndex = _willSelelctIndex;

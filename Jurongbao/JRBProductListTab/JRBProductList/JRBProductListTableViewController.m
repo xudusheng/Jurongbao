@@ -41,6 +41,10 @@
 }
 
 #pragma mark - 点击事件处理
+- (IBAction)showProductDetailButton:(UIButton *)button {
+    [self performSegueWithIdentifier:@"showJRBProductDetailViewController" sender:nil];
+}
+
 
 #pragma mark - 其他私有方法
 

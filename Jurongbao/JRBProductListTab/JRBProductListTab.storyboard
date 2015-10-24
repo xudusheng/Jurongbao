@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--产品列表-->
@@ -106,6 +107,9 @@
                                                         <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                                         <userDefinedRuntimeAttribute type="boolean" keyPath="exclusiveTouch" value="YES"/>
                                                     </userDefinedRuntimeAttributes>
+                                                    <connections>
+                                                        <action selector="showProductDetailButton:" destination="pHl-v2-TTl" eventType="touchUpInside" id="EWf-LX-PUA"/>
+                                                    </connections>
                                                 </button>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pyN-MX-fZe" userLabel="secondView">
                                                     <rect key="frame" x="107" y="35" width="93" height="87"/>
@@ -181,10 +185,83 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="产品列表" id="BMG-PR-cEE"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <segue destination="Hgz-mK-2dt" kind="show" identifier="showJRBProductDetailViewController" id="9u2-lR-GC8"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OUW-Wf-Tm7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="489" y="387"/>
+            <point key="canvasLocation" x="487" y="384"/>
+        </scene>
+        <!--Product Detail View Controller-->
+        <scene sceneID="yMu-SZ-M6b">
+            <objects>
+                <viewController hidesBottomBarWhenPushed="YES" id="Hgz-mK-2dt" customClass="JRBProductDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6mK-ua-rJg"/>
+                        <viewControllerLayoutGuide type="bottom" id="s1k-SD-rGA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TXj-Bo-PKH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="F2n-qg-skO">
+                                <rect key="frame" x="0.0" y="64" width="320" height="411"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="Ah9-Ut-p5o" userLabel="headerView">
+                                    <rect key="frame" x="0.0" y="64" width="320" height="167"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xXz-8p-yij">
+                                <rect key="frame" x="0.0" y="475" width="320" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0CA-r5-Vl9">
+                                        <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                                        <color key="backgroundColor" red="0.78431372549019607" green="0.27058823529411763" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="0CA-r5-Vl9" secondAttribute="height" multiplier="1:1" id="K2L-yR-uB1"/>
+                                        </constraints>
+                                        <state key="normal" title="计算">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gfv-lS-bZo">
+                                        <rect key="frame" x="44" y="0.0" width="276" height="44"/>
+                                        <color key="backgroundColor" red="0.90196078431372551" green="0.27058823529411763" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="立即抢购">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Gfv-lS-bZo" secondAttribute="trailing" id="JaC-ju-d44"/>
+                                    <constraint firstItem="Gfv-lS-bZo" firstAttribute="leading" secondItem="0CA-r5-Vl9" secondAttribute="trailing" id="KyN-5K-hPx"/>
+                                    <constraint firstAttribute="height" constant="44" id="Lmo-Ee-jmE"/>
+                                    <constraint firstAttribute="bottom" secondItem="0CA-r5-Vl9" secondAttribute="bottom" id="YD5-bu-Qku"/>
+                                    <constraint firstItem="0CA-r5-Vl9" firstAttribute="top" secondItem="xXz-8p-yij" secondAttribute="top" id="bNI-39-FiR"/>
+                                    <constraint firstAttribute="bottom" secondItem="Gfv-lS-bZo" secondAttribute="bottom" id="idO-Z0-Nrm"/>
+                                    <constraint firstItem="0CA-r5-Vl9" firstAttribute="leading" secondItem="xXz-8p-yij" secondAttribute="leading" id="kzE-5G-f2k"/>
+                                    <constraint firstItem="Gfv-lS-bZo" firstAttribute="top" secondItem="xXz-8p-yij" secondAttribute="top" id="ugU-7g-qwb"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="F2n-qg-skO" secondAttribute="trailing" id="70F-oK-YsC"/>
+                            <constraint firstItem="F2n-qg-skO" firstAttribute="leading" secondItem="TXj-Bo-PKH" secondAttribute="leading" id="Iwe-8E-bzR"/>
+                            <constraint firstItem="F2n-qg-skO" firstAttribute="top" secondItem="6mK-ua-rJg" secondAttribute="bottom" id="env-PP-eoX"/>
+                            <constraint firstItem="xXz-8p-yij" firstAttribute="leading" secondItem="TXj-Bo-PKH" secondAttribute="leading" id="g4G-ZD-cAf"/>
+                            <constraint firstAttribute="trailing" secondItem="xXz-8p-yij" secondAttribute="trailing" id="iwG-7O-lYc"/>
+                            <constraint firstItem="s1k-SD-rGA" firstAttribute="top" secondItem="xXz-8p-yij" secondAttribute="bottom" id="rXX-zH-uV8"/>
+                            <constraint firstItem="xXz-8p-yij" firstAttribute="top" secondItem="F2n-qg-skO" secondAttribute="bottom" id="we2-MU-I7L"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dSz-OH-SN2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="947" y="384"/>
         </scene>
         <!--产品列表Nav-->
         <scene sceneID="1Le-2G-1PZ">

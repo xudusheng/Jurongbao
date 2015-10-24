@@ -48,12 +48,10 @@
             CGFloat origin_x = gap + (gap + width)*j;
             CGFloat origin_y = bannerHeigh + gap + (gap + height)*i;
             pieceView.frame = CGRectMake(origin_x, origin_y, width, height);
-            NSLog(@"piece = %@", pieceView);
             [headerView addSubview:pieceView];
         }
     }
     
-    NSLog(@"subVIew = %@", headerView.subviews);
     return headerView;
 }
 #pragma mark - 网络请求
