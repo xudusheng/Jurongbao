@@ -7,14 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01BD1C91EA575DA1F6005A24 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C9A0B72C03CF4AC438DD31 /* libPods.a */; };
+		BA009CEB1BD9256A00C3D002 /* JRBHotPieceView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA009CE31BD9256A00C3D002 /* JRBHotPieceView.m */; settings = {ASSET_TAGS = (); }; };
+		BA009CEC1BD9256A00C3D002 /* JRBHotPieceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA009CE41BD9256A00C3D002 /* JRBHotPieceView.xib */; settings = {ASSET_TAGS = (); }; };
+		BA009CED1BD9256A00C3D002 /* JRBHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA009CE61BD9256A00C3D002 /* JRBHotViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BA009CEE1BD9256A00C3D002 /* JRBWebProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA009CE81BD9256A00C3D002 /* JRBWebProgressView.m */; settings = {ASSET_TAGS = (); }; };
+		BA009CEF1BD9256A00C3D002 /* JRBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA009CEA1BD9256A00C3D002 /* JRBWebViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BA009CF31BD92DF300C3D002 /* CALayer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = BA009CF21BD92DF300C3D002 /* CALayer+Addition.m */; settings = {ASSET_TAGS = (); }; };
+		BA259E701BD23ABD00640349 /* JRBMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA259E6F1BD23ABD00640349 /* JRBMainTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		BA259E721BD23AFC00640349 /* JRBHotTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA259E711BD23AFC00640349 /* JRBHotTab.storyboard */; settings = {ASSET_TAGS = (); }; };
+		BA259E741BD23B0D00640349 /* JRBProductListTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA259E731BD23B0D00640349 /* JRBProductListTab.storyboard */; settings = {ASSET_TAGS = (); }; };
+		BA259E761BD23B1E00640349 /* JRBPersonalCenterTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA259E751BD23B1E00640349 /* JRBPersonalCenterTab.storyboard */; settings = {ASSET_TAGS = (); }; };
+		BA259E781BD23B3000640349 /* JRBMoreTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA259E771BD23B3000640349 /* JRBMoreTab.storyboard */; settings = {ASSET_TAGS = (); }; };
+		BA259E831BD287D100640349 /* JRBRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA259E821BD287D100640349 /* JRBRootViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BA259E861BD2881800640349 /* JRBRootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA259E851BD2881800640349 /* JRBRootTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BA622C9C1BD9A62800E899E3 /* JRBHotTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA622C9B1BD9A62800E899E3 /* JRBHotTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		BA622C9F1BDA73C600E899E3 /* JRBBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA622C9E1BDA73C600E899E3 /* JRBBannerView.m */; settings = {ASSET_TAGS = (); }; };
+		BA7A71391BDB0EC90055F7F3 /* JRBProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7A71381BDB0EC90055F7F3 /* JRBProductDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BA7A713C1BDB33FC0055F7F3 /* JRBLoginTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7A713B1BDB33FC0055F7F3 /* JRBLoginTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BA7A713F1BDB36010055F7F3 /* JRBRegisterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7A713E1BDB36010055F7F3 /* JRBRegisterTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BA845F0C1BDBCBF5007172EE /* DZNSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BA845F0B1BDBCBF5007172EE /* DZNSegmentedControl.m */; settings = {ASSET_TAGS = (); }; };
+		BA845F0F1BDCC431007172EE /* JRBProductDetailSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BA845F0E1BDCC431007172EE /* JRBProductDetailSegmentControl.m */; settings = {ASSET_TAGS = (); }; };
+		BA845F121BDCDA7E007172EE /* JRBProductListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA845F111BDCDA7E007172EE /* JRBProductListTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		BAA0D1B81BCFEF4C00ECE6A2 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA0D1B71BCFEF4C00ECE6A2 /* LocalAuthentication.framework */; };
 		BAA59B361BCA3902008162A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59B351BCA3902008162A4 /* main.m */; };
 		BAA59B391BCA3902008162A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59B381BCA3902008162A4 /* AppDelegate.m */; };
-		BAA59B3C1BCA3902008162A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59B3B1BCA3902008162A4 /* ViewController.m */; };
 		BAA59B3F1BCA3902008162A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAA59B3D1BCA3902008162A4 /* Main.storyboard */; };
 		BAA59B411BCA3902008162A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA59B401BCA3902008162A4 /* Assets.xcassets */; };
 		BAA59B441BCA3902008162A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAA59B421BCA3902008162A4 /* LaunchScreen.storyboard */; };
 		BAA59B4F1BCA3903008162A4 /* JurongbaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59B4E1BCA3903008162A4 /* JurongbaoTests.m */; };
 		BAA59B5A1BCA3903008162A4 /* JurongbaoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59B591BCA3903008162A4 /* JurongbaoUITests.m */; };
+		BADD6AF81BD68A430057B797 /* JRBProductListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BADD6AF71BD68A430057B797 /* JRBProductListTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BADD6AFC1BD68A750057B797 /* JRBPersonalCenterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BADD6AFB1BD68A750057B797 /* JRBPersonalCenterTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BADD6AFF1BD68D330057B797 /* JRBPersonalCenterHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BADD6AFE1BD68D330057B797 /* JRBPersonalCenterHeaderView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +60,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39C934036189BEE6497CFAA2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		57C9A0B72C03CF4AC438DD31 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DCD3480A4DA155009EAFDDA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BA009CE21BD9256A00C3D002 /* JRBHotPieceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBHotPieceView.h; sourceTree = "<group>"; };
+		BA009CE31BD9256A00C3D002 /* JRBHotPieceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBHotPieceView.m; sourceTree = "<group>"; };
+		BA009CE41BD9256A00C3D002 /* JRBHotPieceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JRBHotPieceView.xib; sourceTree = "<group>"; };
+		BA009CE51BD9256A00C3D002 /* JRBHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBHotViewController.h; sourceTree = "<group>"; };
+		BA009CE61BD9256A00C3D002 /* JRBHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBHotViewController.m; sourceTree = "<group>"; };
+		BA009CE71BD9256A00C3D002 /* JRBWebProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBWebProgressView.h; sourceTree = "<group>"; };
+		BA009CE81BD9256A00C3D002 /* JRBWebProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBWebProgressView.m; sourceTree = "<group>"; };
+		BA009CE91BD9256A00C3D002 /* JRBWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBWebViewController.h; sourceTree = "<group>"; };
+		BA009CEA1BD9256A00C3D002 /* JRBWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBWebViewController.m; sourceTree = "<group>"; };
+		BA009CF11BD92DF300C3D002 /* CALayer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Addition.h"; sourceTree = "<group>"; };
+		BA009CF21BD92DF300C3D002 /* CALayer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Addition.m"; sourceTree = "<group>"; };
+		BA259E6E1BD23ABD00640349 /* JRBMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBMainTabBarController.h; sourceTree = "<group>"; };
+		BA259E6F1BD23ABD00640349 /* JRBMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBMainTabBarController.m; sourceTree = "<group>"; };
+		BA259E711BD23AFC00640349 /* JRBHotTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JRBHotTab.storyboard; sourceTree = "<group>"; };
+		BA259E731BD23B0D00640349 /* JRBProductListTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JRBProductListTab.storyboard; sourceTree = "<group>"; };
+		BA259E751BD23B1E00640349 /* JRBPersonalCenterTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JRBPersonalCenterTab.storyboard; sourceTree = "<group>"; };
+		BA259E771BD23B3000640349 /* JRBMoreTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JRBMoreTab.storyboard; sourceTree = "<group>"; };
+		BA259E7A1BD23EA000640349 /* JRBHeaderFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRBHeaderFile.h; sourceTree = "<group>"; };
+		BA259E7B1BD23F1300640349 /* JRBPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRBPrefixHeader.pch; sourceTree = "<group>"; };
+		BA259E811BD287D100640349 /* JRBRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBRootViewController.h; sourceTree = "<group>"; };
+		BA259E821BD287D100640349 /* JRBRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBRootViewController.m; sourceTree = "<group>"; };
+		BA259E841BD2881800640349 /* JRBRootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBRootTableViewController.h; sourceTree = "<group>"; };
+		BA259E851BD2881800640349 /* JRBRootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBRootTableViewController.m; sourceTree = "<group>"; };
+		BA622C9A1BD9A62800E899E3 /* JRBHotTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBHotTableViewCell.h; sourceTree = "<group>"; };
+		BA622C9B1BD9A62800E899E3 /* JRBHotTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBHotTableViewCell.m; sourceTree = "<group>"; };
+		BA622C9D1BDA73C600E899E3 /* JRBBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBBannerView.h; sourceTree = "<group>"; };
+		BA622C9E1BDA73C600E899E3 /* JRBBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBBannerView.m; sourceTree = "<group>"; };
+		BA622CA31BDA7AD700E899E3 /* JRBEnumFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRBEnumFile.h; sourceTree = "<group>"; };
+		BA7A71371BDB0EC90055F7F3 /* JRBProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBProductDetailViewController.h; sourceTree = "<group>"; };
+		BA7A71381BDB0EC90055F7F3 /* JRBProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBProductDetailViewController.m; sourceTree = "<group>"; };
+		BA7A713A1BDB33FC0055F7F3 /* JRBLoginTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBLoginTableViewController.h; sourceTree = "<group>"; };
+		BA7A713B1BDB33FC0055F7F3 /* JRBLoginTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBLoginTableViewController.m; sourceTree = "<group>"; };
+		BA7A713D1BDB36010055F7F3 /* JRBRegisterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBRegisterTableViewController.h; sourceTree = "<group>"; };
+		BA7A713E1BDB36010055F7F3 /* JRBRegisterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBRegisterTableViewController.m; sourceTree = "<group>"; };
+		BA845F0A1BDBCBF5007172EE /* DZNSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZNSegmentedControl.h; sourceTree = "<group>"; };
+		BA845F0B1BDBCBF5007172EE /* DZNSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZNSegmentedControl.m; sourceTree = "<group>"; };
+		BA845F0D1BDCC431007172EE /* JRBProductDetailSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBProductDetailSegmentControl.h; sourceTree = "<group>"; };
+		BA845F0E1BDCC431007172EE /* JRBProductDetailSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBProductDetailSegmentControl.m; sourceTree = "<group>"; };
+		BA845F101BDCDA7E007172EE /* JRBProductListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBProductListTableViewCell.h; sourceTree = "<group>"; };
+		BA845F111BDCDA7E007172EE /* JRBProductListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBProductListTableViewCell.m; sourceTree = "<group>"; };
+		BAA0D1B71BCFEF4C00ECE6A2 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		BAA59B311BCA3902008162A4 /* Jurongbao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jurongbao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA59B351BCA3902008162A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BAA59B371BCA3902008162A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BAA59B381BCA3902008162A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BAA59B3A1BCA3902008162A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BAA59B3B1BCA3902008162A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BAA59B3E1BCA3902008162A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BAA59B401BCA3902008162A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAA59B431BCA3902008162A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +118,12 @@
 		BAA59B551BCA3903008162A4 /* JurongbaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JurongbaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA59B591BCA3903008162A4 /* JurongbaoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JurongbaoUITests.m; sourceTree = "<group>"; };
 		BAA59B5B1BCA3903008162A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BADD6AF61BD68A430057B797 /* JRBProductListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBProductListTableViewController.h; sourceTree = "<group>"; };
+		BADD6AF71BD68A430057B797 /* JRBProductListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBProductListTableViewController.m; sourceTree = "<group>"; };
+		BADD6AFA1BD68A750057B797 /* JRBPersonalCenterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBPersonalCenterTableViewController.h; sourceTree = "<group>"; };
+		BADD6AFB1BD68A750057B797 /* JRBPersonalCenterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBPersonalCenterTableViewController.m; sourceTree = "<group>"; };
+		BADD6AFD1BD68D330057B797 /* JRBPersonalCenterHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBPersonalCenterHeaderView.h; sourceTree = "<group>"; };
+		BADD6AFE1BD68D330057B797 /* JRBPersonalCenterHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBPersonalCenterHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +131,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAA0D1B81BCFEF4C00ECE6A2 /* LocalAuthentication.framework in Frameworks */,
+				01BD1C91EA575DA1F6005A24 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +153,158 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		093B7D0CF8B817B6BE18D4C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DCD3480A4DA155009EAFDDA /* Pods.debug.xcconfig */,
+				39C934036189BEE6497CFAA2 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		43DD4BBFB3F5FC1F952C2BC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57C9A0B72C03CF4AC438DD31 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA009CD31BD9254900C3D002 /* JRBHot */ = {
+			isa = PBXGroup;
+			children = (
+				BA009CE51BD9256A00C3D002 /* JRBHotViewController.h */,
+				BA009CE61BD9256A00C3D002 /* JRBHotViewController.m */,
+				BA622C9A1BD9A62800E899E3 /* JRBHotTableViewCell.h */,
+				BA622C9B1BD9A62800E899E3 /* JRBHotTableViewCell.m */,
+				BA009CE71BD9256A00C3D002 /* JRBWebProgressView.h */,
+				BA009CE81BD9256A00C3D002 /* JRBWebProgressView.m */,
+				BA009CE91BD9256A00C3D002 /* JRBWebViewController.h */,
+				BA009CEA1BD9256A00C3D002 /* JRBWebViewController.m */,
+				BA622C9D1BDA73C600E899E3 /* JRBBannerView.h */,
+				BA622C9E1BDA73C600E899E3 /* JRBBannerView.m */,
+				BA009CE21BD9256A00C3D002 /* JRBHotPieceView.h */,
+				BA009CE31BD9256A00C3D002 /* JRBHotPieceView.m */,
+				BA009CE41BD9256A00C3D002 /* JRBHotPieceView.xib */,
+			);
+			path = JRBHot;
+			sourceTree = "<group>";
+		};
+		BA009CF01BD92DE600C3D002 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BA009CF11BD92DF300C3D002 /* CALayer+Addition.h */,
+				BA009CF21BD92DF300C3D002 /* CALayer+Addition.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		BA259E661BD23A5900640349 /* JRBMoreTab */ = {
+			isa = PBXGroup;
+			children = (
+				BA259E771BD23B3000640349 /* JRBMoreTab.storyboard */,
+			);
+			path = JRBMoreTab;
+			sourceTree = "<group>";
+		};
+		BA259E671BD23A6600640349 /* JRBHotTab */ = {
+			isa = PBXGroup;
+			children = (
+				BA259E711BD23AFC00640349 /* JRBHotTab.storyboard */,
+				BA009CD31BD9254900C3D002 /* JRBHot */,
+			);
+			path = JRBHotTab;
+			sourceTree = "<group>";
+		};
+		BA259E681BD23A6600640349 /* JRBProductListTab */ = {
+			isa = PBXGroup;
+			children = (
+				BA259E731BD23B0D00640349 /* JRBProductListTab.storyboard */,
+				BADD6AF51BD68A430057B797 /* JRBProductList */,
+				BA7A71331BDB0D7D0055F7F3 /* JRBProductDetail */,
+			);
+			path = JRBProductListTab;
+			sourceTree = "<group>";
+		};
+		BA259E691BD23A6E00640349 /* JRBPersonalCenterTab */ = {
+			isa = PBXGroup;
+			children = (
+				BA259E751BD23B1E00640349 /* JRBPersonalCenterTab.storyboard */,
+				BADD6AF91BD68A5E0057B797 /* JRBPersonalCenter */,
+			);
+			path = JRBPersonalCenterTab;
+			sourceTree = "<group>";
+		};
+		BA259E6A1BD23A9F00640349 /* JRBMain */ = {
+			isa = PBXGroup;
+			children = (
+				BA259E6E1BD23ABD00640349 /* JRBMainTabBarController.h */,
+				BA259E6F1BD23ABD00640349 /* JRBMainTabBarController.m */,
+			);
+			path = JRBMain;
+			sourceTree = "<group>";
+		};
+		BA259E791BD23C6000640349 /* JRBLoginAndLogout */ = {
+			isa = PBXGroup;
+			children = (
+				BA7A713A1BDB33FC0055F7F3 /* JRBLoginTableViewController.h */,
+				BA7A713B1BDB33FC0055F7F3 /* JRBLoginTableViewController.m */,
+				BA7A713D1BDB36010055F7F3 /* JRBRegisterTableViewController.h */,
+				BA7A713E1BDB36010055F7F3 /* JRBRegisterTableViewController.m */,
+			);
+			path = JRBLoginAndLogout;
+			sourceTree = "<group>";
+		};
+		BA259E7F1BD2879E00640349 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BA845F091BDBCBEC007172EE /* JRBSegmentedControl */,
+				BA259E801BD287C100640349 /* JRBRootViewControllers */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BA259E801BD287C100640349 /* JRBRootViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA259E811BD287D100640349 /* JRBRootViewController.h */,
+				BA259E821BD287D100640349 /* JRBRootViewController.m */,
+				BA259E841BD2881800640349 /* JRBRootTableViewController.h */,
+				BA259E851BD2881800640349 /* JRBRootTableViewController.m */,
+			);
+			path = JRBRootViewControllers;
+			sourceTree = "<group>";
+		};
+		BA7A71331BDB0D7D0055F7F3 /* JRBProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				BA7A71371BDB0EC90055F7F3 /* JRBProductDetailViewController.h */,
+				BA7A71381BDB0EC90055F7F3 /* JRBProductDetailViewController.m */,
+				BA845F0D1BDCC431007172EE /* JRBProductDetailSegmentControl.h */,
+				BA845F0E1BDCC431007172EE /* JRBProductDetailSegmentControl.m */,
+			);
+			path = JRBProductDetail;
+			sourceTree = "<group>";
+		};
+		BA845F091BDBCBEC007172EE /* JRBSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				BA845F0A1BDBCBF5007172EE /* DZNSegmentedControl.h */,
+				BA845F0B1BDBCBF5007172EE /* DZNSegmentedControl.m */,
+			);
+			path = JRBSegmentedControl;
+			sourceTree = "<group>";
+		};
 		BAA59B281BCA3902008162A4 = {
 			isa = PBXGroup;
 			children = (
+				BAA0D1B71BCFEF4C00ECE6A2 /* LocalAuthentication.framework */,
 				BAA59B331BCA3902008162A4 /* Jurongbao */,
 				BAA59B4D1BCA3903008162A4 /* JurongbaoTests */,
 				BAA59B581BCA3903008162A4 /* JurongbaoUITests */,
 				BAA59B321BCA3902008162A4 /* Products */,
+				43DD4BBFB3F5FC1F952C2BC9 /* Frameworks */,
+				093B7D0CF8B817B6BE18D4C6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +323,15 @@
 			children = (
 				BAA59B371BCA3902008162A4 /* AppDelegate.h */,
 				BAA59B381BCA3902008162A4 /* AppDelegate.m */,
-				BAA59B3A1BCA3902008162A4 /* ViewController.h */,
-				BAA59B3B1BCA3902008162A4 /* ViewController.m */,
 				BAA59B3D1BCA3902008162A4 /* Main.storyboard */,
+				BA259E6A1BD23A9F00640349 /* JRBMain */,
+				BA259E791BD23C6000640349 /* JRBLoginAndLogout */,
+				BA259E671BD23A6600640349 /* JRBHotTab */,
+				BA259E681BD23A6600640349 /* JRBProductListTab */,
+				BA259E691BD23A6E00640349 /* JRBPersonalCenterTab */,
+				BA259E661BD23A5900640349 /* JRBMoreTab */,
+				BA009CF01BD92DE600C3D002 /* Category */,
+				BA259E7F1BD2879E00640349 /* Utilities */,
 				BAA59B401BCA3902008162A4 /* Assets.xcassets */,
 				BAA59B421BCA3902008162A4 /* LaunchScreen.storyboard */,
 				BAA59B451BCA3902008162A4 /* Info.plist */,
@@ -118,6 +344,9 @@
 			isa = PBXGroup;
 			children = (
 				BAA59B351BCA3902008162A4 /* main.m */,
+				BA259E7A1BD23EA000640349 /* JRBHeaderFile.h */,
+				BA622CA31BDA7AD700E899E3 /* JRBEnumFile.h */,
+				BA259E7B1BD23F1300640349 /* JRBPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +369,28 @@
 			path = JurongbaoUITests;
 			sourceTree = "<group>";
 		};
+		BADD6AF51BD68A430057B797 /* JRBProductList */ = {
+			isa = PBXGroup;
+			children = (
+				BADD6AF61BD68A430057B797 /* JRBProductListTableViewController.h */,
+				BADD6AF71BD68A430057B797 /* JRBProductListTableViewController.m */,
+				BA845F101BDCDA7E007172EE /* JRBProductListTableViewCell.h */,
+				BA845F111BDCDA7E007172EE /* JRBProductListTableViewCell.m */,
+			);
+			path = JRBProductList;
+			sourceTree = "<group>";
+		};
+		BADD6AF91BD68A5E0057B797 /* JRBPersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				BADD6AFA1BD68A750057B797 /* JRBPersonalCenterTableViewController.h */,
+				BADD6AFB1BD68A750057B797 /* JRBPersonalCenterTableViewController.m */,
+				BADD6AFD1BD68D330057B797 /* JRBPersonalCenterHeaderView.h */,
+				BADD6AFE1BD68D330057B797 /* JRBPersonalCenterHeaderView.m */,
+			);
+			path = JRBPersonalCenter;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +398,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAA59B5E1BCA3903008162A4 /* Build configuration list for PBXNativeTarget "Jurongbao" */;
 			buildPhases = (
+				44F880B93943C1552E580365 /* Check Pods Manifest.lock */,
 				BAA59B2D1BCA3902008162A4 /* Sources */,
 				BAA59B2E1BCA3902008162A4 /* Frameworks */,
 				BAA59B2F1BCA3902008162A4 /* Resources */,
+				2DF50DE4597319226D4EF42A /* Embed Pods Frameworks */,
+				5F48CD79C9AE1B01A48EEB7B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,7 +499,12 @@
 			files = (
 				BAA59B441BCA3902008162A4 /* LaunchScreen.storyboard in Resources */,
 				BAA59B411BCA3902008162A4 /* Assets.xcassets in Resources */,
+				BA259E761BD23B1E00640349 /* JRBPersonalCenterTab.storyboard in Resources */,
+				BA259E741BD23B0D00640349 /* JRBProductListTab.storyboard in Resources */,
+				BA259E781BD23B3000640349 /* JRBMoreTab.storyboard in Resources */,
 				BAA59B3F1BCA3902008162A4 /* Main.storyboard in Resources */,
+				BA009CEC1BD9256A00C3D002 /* JRBHotPieceView.xib in Resources */,
+				BA259E721BD23AFC00640349 /* JRBHotTab.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +524,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DF50DE4597319226D4EF42A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44F880B93943C1552E580365 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F48CD79C9AE1B01A48EEB7B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BAA59B2D1BCA3902008162A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAA59B3C1BCA3902008162A4 /* ViewController.m in Sources */,
+				BA7A71391BDB0EC90055F7F3 /* JRBProductDetailViewController.m in Sources */,
+				BA845F121BDCDA7E007172EE /* JRBProductListTableViewCell.m in Sources */,
+				BA009CED1BD9256A00C3D002 /* JRBHotViewController.m in Sources */,
+				BADD6AF81BD68A430057B797 /* JRBProductListTableViewController.m in Sources */,
+				BA259E701BD23ABD00640349 /* JRBMainTabBarController.m in Sources */,
+				BA7A713C1BDB33FC0055F7F3 /* JRBLoginTableViewController.m in Sources */,
+				BA259E831BD287D100640349 /* JRBRootViewController.m in Sources */,
 				BAA59B391BCA3902008162A4 /* AppDelegate.m in Sources */,
+				BADD6AFC1BD68A750057B797 /* JRBPersonalCenterTableViewController.m in Sources */,
+				BA7A713F1BDB36010055F7F3 /* JRBRegisterTableViewController.m in Sources */,
+				BA009CF31BD92DF300C3D002 /* CALayer+Addition.m in Sources */,
+				BA009CEF1BD9256A00C3D002 /* JRBWebViewController.m in Sources */,
+				BA622C9F1BDA73C600E899E3 /* JRBBannerView.m in Sources */,
+				BA845F0F1BDCC431007172EE /* JRBProductDetailSegmentControl.m in Sources */,
+				BADD6AFF1BD68D330057B797 /* JRBPersonalCenterHeaderView.m in Sources */,
+				BA259E861BD2881800640349 /* JRBRootTableViewController.m in Sources */,
+				BA845F0C1BDBCBF5007172EE /* DZNSegmentedControl.m in Sources */,
+				BA009CEB1BD9256A00C3D002 /* JRBHotPieceView.m in Sources */,
 				BAA59B361BCA3902008162A4 /* main.m in Sources */,
+				BA009CEE1BD9256A00C3D002 /* JRBWebProgressView.m in Sources */,
+				BA622C9C1BD9A62800E899E3 /* JRBHotTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,9 +736,13 @@
 		};
 		BAA59B5F1BCA3903008162A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DCD3480A4DA155009EAFDDA /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				GCC_PREFIX_HEADER = Jurongbao/JRBPrefixHeader.pch;
 				INFOPLIST_FILE = Jurongbao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.truly.Jurongbao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +751,13 @@
 		};
 		BAA59B601BCA3903008162A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39C934036189BEE6497CFAA2 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				GCC_PREFIX_HEADER = Jurongbao/JRBPrefixHeader.pch;
 				INFOPLIST_FILE = Jurongbao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.truly.Jurongbao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +831,7 @@
 				BAA59B601BCA3903008162A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAA59B611BCA3903008162A4 /* Build configuration list for PBXNativeTarget "JurongbaoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +840,7 @@
 				BAA59B631BCA3903008162A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAA59B641BCA3903008162A4 /* Build configuration list for PBXNativeTarget "JurongbaoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +849,7 @@
 				BAA59B661BCA3903008162A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

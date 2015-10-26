@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "IQKeyboardManager.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+
+    IQKeyboardManager *manager = [IQKeyboardManager sharedManager];
+    manager.enable = YES;
+//    manager.shouldResignOnTouchOutside = YES;
+//    manager.shouldToolbarUsesTextFieldTintColor = YES;
+//    manager.enableAutoToolbar = YES;
+    
     return YES;
 }
 
