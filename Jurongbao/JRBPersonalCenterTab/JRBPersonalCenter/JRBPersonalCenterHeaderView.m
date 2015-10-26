@@ -18,8 +18,8 @@
 
 - (void)awakeFromNib{
 
-    [self addRotationAnimationWithView:_out_circleImageView toValue:(M_PI * 2.0)];
-    [self addRotationAnimationWithView:_in_circleImageView toValue:(- M_PI * 2.0)];
+//    [self addRotationAnimationWithView:_out_circleImageView toValue:(M_PI * 2.0)];
+//    [self addRotationAnimationWithView:_in_circleImageView toValue:(- M_PI * 2.0)];
 }
 
 - (void)addRotationAnimationWithView:(UIView *)view toValue:(CGFloat)toValue{

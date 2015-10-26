@@ -27,6 +27,8 @@
 		BA7A713C1BDB33FC0055F7F3 /* JRBLoginTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7A713B1BDB33FC0055F7F3 /* JRBLoginTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BA7A713F1BDB36010055F7F3 /* JRBRegisterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7A713E1BDB36010055F7F3 /* JRBRegisterTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BA845F0C1BDBCBF5007172EE /* DZNSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BA845F0B1BDBCBF5007172EE /* DZNSegmentedControl.m */; settings = {ASSET_TAGS = (); }; };
+		BA845F0F1BDCC431007172EE /* JRBProductDetailSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BA845F0E1BDCC431007172EE /* JRBProductDetailSegmentControl.m */; settings = {ASSET_TAGS = (); }; };
+		BA845F121BDCDA7E007172EE /* JRBProductListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA845F111BDCDA7E007172EE /* JRBProductListTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		BAA0D1B81BCFEF4C00ECE6A2 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA0D1B71BCFEF4C00ECE6A2 /* LocalAuthentication.framework */; };
 		BAA59B361BCA3902008162A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59B351BCA3902008162A4 /* main.m */; };
 		BAA59B391BCA3902008162A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59B381BCA3902008162A4 /* AppDelegate.m */; };
@@ -97,6 +99,10 @@
 		BA7A713E1BDB36010055F7F3 /* JRBRegisterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBRegisterTableViewController.m; sourceTree = "<group>"; };
 		BA845F0A1BDBCBF5007172EE /* DZNSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZNSegmentedControl.h; sourceTree = "<group>"; };
 		BA845F0B1BDBCBF5007172EE /* DZNSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZNSegmentedControl.m; sourceTree = "<group>"; };
+		BA845F0D1BDCC431007172EE /* JRBProductDetailSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBProductDetailSegmentControl.h; sourceTree = "<group>"; };
+		BA845F0E1BDCC431007172EE /* JRBProductDetailSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBProductDetailSegmentControl.m; sourceTree = "<group>"; };
+		BA845F101BDCDA7E007172EE /* JRBProductListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBProductListTableViewCell.h; sourceTree = "<group>"; };
+		BA845F111BDCDA7E007172EE /* JRBProductListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBProductListTableViewCell.m; sourceTree = "<group>"; };
 		BAA0D1B71BCFEF4C00ECE6A2 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		BAA59B311BCA3902008162A4 /* Jurongbao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jurongbao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA59B351BCA3902008162A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -274,6 +280,8 @@
 			children = (
 				BA7A71371BDB0EC90055F7F3 /* JRBProductDetailViewController.h */,
 				BA7A71381BDB0EC90055F7F3 /* JRBProductDetailViewController.m */,
+				BA845F0D1BDCC431007172EE /* JRBProductDetailSegmentControl.h */,
+				BA845F0E1BDCC431007172EE /* JRBProductDetailSegmentControl.m */,
 			);
 			path = JRBProductDetail;
 			sourceTree = "<group>";
@@ -366,6 +374,8 @@
 			children = (
 				BADD6AF61BD68A430057B797 /* JRBProductListTableViewController.h */,
 				BADD6AF71BD68A430057B797 /* JRBProductListTableViewController.m */,
+				BA845F101BDCDA7E007172EE /* JRBProductListTableViewCell.h */,
+				BA845F111BDCDA7E007172EE /* JRBProductListTableViewCell.m */,
 			);
 			path = JRBProductList;
 			sourceTree = "<group>";
@@ -568,6 +578,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA7A71391BDB0EC90055F7F3 /* JRBProductDetailViewController.m in Sources */,
+				BA845F121BDCDA7E007172EE /* JRBProductListTableViewCell.m in Sources */,
 				BA009CED1BD9256A00C3D002 /* JRBHotViewController.m in Sources */,
 				BADD6AF81BD68A430057B797 /* JRBProductListTableViewController.m in Sources */,
 				BA259E701BD23ABD00640349 /* JRBMainTabBarController.m in Sources */,
@@ -579,6 +590,7 @@
 				BA009CF31BD92DF300C3D002 /* CALayer+Addition.m in Sources */,
 				BA009CEF1BD9256A00C3D002 /* JRBWebViewController.m in Sources */,
 				BA622C9F1BDA73C600E899E3 /* JRBBannerView.m in Sources */,
+				BA845F0F1BDCC431007172EE /* JRBProductDetailSegmentControl.m in Sources */,
 				BADD6AFF1BD68D330057B797 /* JRBPersonalCenterHeaderView.m in Sources */,
 				BA259E861BD2881800640349 /* JRBRootTableViewController.m in Sources */,
 				BA845F0C1BDBCBF5007172EE /* DZNSegmentedControl.m in Sources */,

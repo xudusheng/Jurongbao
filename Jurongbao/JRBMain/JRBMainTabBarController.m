@@ -67,7 +67,7 @@
 #pragma mark UITabBarDelegate
 -(void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item{
     if ([item.title isEqualToString:@"个人中心"]) {
-        [self showLoginViewController:YES];
+//        [self showLoginViewController:YES];
     }else{
         NSArray * items = tabBar.items;
         _currentItemIndex = [items indexOfObject:item];
@@ -78,7 +78,7 @@
     NSArray * controllers = tabBarController.customizableViewControllers;
     _willSelelctIndex = [controllers indexOfObject:viewController];
     if (_willSelelctIndex == 2) {
-        return NO;
+//        return NO;
     };
     return YES;
 }

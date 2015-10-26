@@ -27,7 +27,16 @@
 #pragma mark - 网络请求
 
 #pragma mark - 代理方法
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
+    return 0.00001;
+}
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+    return 10;
+}
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
 #pragma mark - 点击事件处理
 
 #pragma mark - 其他私有方法
@@ -40,14 +49,4 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-//CABasicAnimation* rotationAnimation;
-//rotationAnimation = [CABasicAnimation animationWithKeyPath:@"transform.rotation.z"];
-//rotationAnimation.toValue = [NSNumber numberWithFloat: M_PI * 2.0 ];
-//rotationAnimation.duration = 2.0f;
-//rotationAnimation.cumulative = YES;
-//rotationAnimation.repeatCount = HUGE_VALF;
-//rotationAnimation.delegate = self;
-//rotationAnimation.removedOnCompletion = NO;
-//[self.imgView.layer addAnimation:rotationAnimation forKey:@"red"];
 @end

@@ -7,7 +7,7 @@
 //
 
 #import "JRBProductListTableViewController.h"
-
+#import "JRBProductListTableViewCell.h"
 @interface JRBProductListTableViewController ()
 
 @end
@@ -36,13 +36,17 @@
     return 20;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"JRBProductListTableViewCell"];
+    JRBProductListTableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"JRBProductListTableViewCell"];
     return cell;
 }
 
-#pragma mark - 点击事件处理
-- (IBAction)showProductDetailButton:(UIButton *)button {
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     [self performSegueWithIdentifier:@"showJRBProductDetailViewController" sender:nil];
+}
+
+#pragma mark - 点击事件处理
+- (IBAction)showPurchaseButton:(UIButton *)button {
 }
 
 
